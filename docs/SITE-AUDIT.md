@@ -1,0 +1,1 @@
+# ← Se genera dinámicamente desde base44/shared/siteAuditContent.ts
