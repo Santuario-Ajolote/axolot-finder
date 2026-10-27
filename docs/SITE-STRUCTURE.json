@@ -1,0 +1,1773 @@
+{
+  "metadata": {
+    "app_name": "Santuario Ajolote",
+    "alternate_name": "AxolotFinder",
+    "organization": "CIMA A.C.",
+    "primary_domain": "https://axolotfinder.org",
+    "platform_domain": "https://axolotofinder.base44.app",
+    "audit_date": "2026-10-27",
+    "total_routes": 51,
+    "visible_routes": 40,
+    "private_routes": 11,
+    "languages": [
+      "es",
+      "en"
+    ],
+    "framework": "React + Vite + Tailwind CSS",
+    "platform": "Base44",
+    "og_image_default": "https://media.base44.com/images/public/6a0001949163ade945a0c48b/7c2ee6c6f_Logotipopositivo2.png"
+  },
+  "summary": {
+    "total_routes": 51,
+    "visible_routes": 40,
+    "private_routes": 11,
+    "multilingual_coverage": "100% (ES/EN)",
+    "responsive_coverage": "100% (mobile, tablet, desktop)",
+    "seo_coverage": "100% (title, description, keywords, canonical, schema, OG)",
+    "geo_coverage": "100% (geo.region, geo.placename, geo.position)",
+    "og_image_coverage": "100%"
+  },
+  "visible_pages": [
+    {
+      "path": "/",
+      "name": "Home",
+      "file": "src/pages/Home.jsx",
+      "category": "principal",
+      "multilingual": true,
+      "responsive": {
+        "mobile": true,
+        "tablet": true,
+        "desktop": true
+      },
+      "seo": {
+        "title": true,
+        "description": true,
+        "keywords": true,
+        "canonical": true,
+        "schema": "WebSite",
+        "og_image": true
+      },
+      "geo": {
+        "region": "MX-CMX",
+        "placename": "Xochimilco, CDMX",
+        "position": "19.2671;-99.1750"
+      },
+      "og_description": "Santuario Ajolote · Axolot Finder: unimos ciencia, comunidad y turismo comunitario para rescatar al ajolote mexicano (Ambystoma mexicanum) y restaurar su hábitat en Xochimilco.",
+      "has_map": false,
+      "has_video": false,
+      "has_photos": true,
+      "has_database": true,
+      "entities": [
+        "Sighting"
+      ],
+      "linked_from": [
+        "navbar"
+      ],
+      "notes": "Página principal con hero, reloj de extinción, banners de investigación y feed de Instagram."
+    },
+    {
+      "path": "/science",
+      "name": "Observatorio",
+      "file": "src/pages/Science.jsx",
+      "category": "ciencia",
+      "multilingual": true,
+      "responsive": {
+        "mobile": true,
+        "tablet": true,
+        "desktop": true
+      },
+      "seo": {
+        "title": true,
+        "description": true,
+        "keywords": true,
+        "canonical": true,
+        "schema": "WebApplication",
+        "og_image": true
+      },
+      "geo": {
+        "region": "MX-CMX",
+        "placename": "Xochimilco, CDMX",
+        "position": "19.2671;-99.1750"
+      },
+      "og_description": "Ciencia del ajolote mexicano: biología, regeneración, genómica y conservación en Xochimilco. Investigaciones sobre Ambystoma mexicanum. Santuario Ajolote · CIMA A.C.",
+      "has_map": false,
+      "has_video": true,
+      "has_photos": true,
+      "has_database": true,
+      "entities": [
+        "ScientificPublication",
+        "HistoricalDocument"
+      ],
+      "linked_from": [
+        "navbar"
+      ],
+      "notes": "Hub de investigación científica con secciones de genómica, neurobiología, conservación, medicina, historia y videoteca."
+    },
+    {
+      "path": "/acciones-2026",
+      "name": "Acciones 2026",
+      "file": "src/pages/Acciones2026.jsx",
+      "category": "proyectos",
+      "multilingual": true,
+      "responsive": {
+        "mobile": true,
+        "tablet": true,
+        "desktop": true
+      },
+      "seo": {
+        "title": true,
+        "description": true,
+        "keywords": true,
+        "canonical": true,
+        "schema": "CollectionPage",
+        "og_image": true
+      },
+      "geo": {
+        "region": "MX-CMX",
+        "placename": "Xochimilco, CDMX",
+        "position": "19.2671;-99.1750"
+      },
+      "og_description": "Proyectos 2026 del Santuario Ajolote: rescate del hábitat del ajolote, tortuga casquito, chile chicuarote, red de biofiltros y laboratorio de reproducción en Coyoacán.",
+      "has_map": false,
+      "has_video": false,
+      "has_photos": true,
+      "has_database": false,
+      "entities": [],
+      "linked_from": [
+        "navbar"
+      ],
+      "notes": "Catálogo de proyectos de conservación 2026 con enlaces a páginas de detalle."
+    },
+    {
+      "path": "/voluntariado",
+      "name": "Voluntariado",
+      "file": "src/pages/Voluntariado.jsx",
+      "category": "comunidad",
+      "multilingual": true,
+      "responsive": {
+        "mobile": true,
+        "tablet": true,
+        "desktop": true
+      },
+      "seo": {
+        "title": true,
+        "description": true,
+        "keywords": true,
+        "canonical": true,
+        "schema": "WebPage",
+        "og_image": true
+      },
+      "geo": {
+        "region": "MX-CMX",
+        "placename": "Xochimilco, CDMX",
+        "position": "19.2671;-99.1750"
+      },
+      "og_description": "Únete al voluntariado del Santuario Ajolote: brigadas presenciales y unidades remotas para el rescate del ajolote y la restauración de Xochimilco.",
+      "has_map": false,
+      "has_video": false,
+      "has_photos": true,
+      "has_database": true,
+      "entities": [
+        "VoluntarioRegistro"
+      ],
+      "linked_from": [
+        "navbar",
+        "public"
+      ],
+      "notes": "Pública sin login. Formulario de registro de voluntarios con两种 modalidades: brigada y remoto."
+    },
+    {
+      "path": "/turismo-responsable",
+      "name": "Turismo Responsable",
+      "file": "src/pages/TurismoResponsable.jsx",
+      "category": "turismo",
+      "multilingual": true,
+      "responsive": {
+        "mobile": true,
+        "tablet": true,
+        "desktop": true
+      },
+      "seo": {
+        "title": true,
+        "description": true,
+        "keywords": true,
+        "canonical": true,
+        "schema": "TouristAttraction",
+        "og_image": true
+      },
+      "geo": {
+        "region": "MX-CMX",
+        "placename": "Xochimilco, CDMX",
+        "position": "19.2671;-99.1750"
+      },
+      "og_description": "Turismo ecológico y comunitario en Xochimilco: trajineras con remo manual, chinampas vivas y rescate del ajolote. 100% sin fines de lucro. Santuario Ajolote · CIMA A.C.",
+      "has_map": false,
+      "has_video": true,
+      "has_photos": true,
+      "has_database": false,
+      "entities": [],
+      "linked_from": [
+        "navbar",
+        "home"
+      ],
+      "notes": "Hub de turismo comunitario en Xochimilco con tours, video, misión, cooperativas y CTA."
+    },
+    {
+      "path": "/quienes-somos",
+      "name": "Quiénes Somos",
+      "file": "src/pages/QuienesSomos.jsx",
+      "category": "institucional",
+      "multilingual": true,
+      "responsive": {
+        "mobile": true,
+        "tablet": true,
+        "desktop": true
+      },
+      "seo": {
+        "title": true,
+        "description": true,
+        "keywords": true,
+        "canonical": true,
+        "schema": "NGO",
+        "og_image": true
+      },
+      "geo": {
+        "region": "MX-CMX",
+        "placename": "Xochimilco, CDMX",
+        "position": "19.2671;-99.1750"
+      },
+      "og_description": "CIMA A.C. (Santuario Ajolote): asociación civil mexicana dedicada al rescate del ajolote mexicano y la restauración del humedal de Xochimilco desde 2019. Ciencia, comunidad y defensa legal.",
+      "has_map": false,
+      "has_video": false,
+      "has_photos": true,
+      "has_database": false,
+      "entities": [],
+      "linked_from": [
+        "navbar"
+      ],
+      "notes": "Página institucional con hero, historia, trabajo, motivación y llamado a unirse."
+    },
+    {
+      "path": "/sightings",
+      "name": "Avistamientos",
+      "file": "src/pages/Sightings.jsx",
+      "category": "ciencia",
+      "multilingual": true,
+      "responsive": {
+        "mobile": true,
+        "tablet": true,
+        "desktop": true
+      },
+      "seo": {
+        "title": true,
+        "description": true,
+        "keywords": true,
+        "canonical": true,
+        "schema": "WebApplication",
+        "og_image": true
+      },
+      "geo": {
+        "region": "MX-CMX",
+        "placename": "Xochimilco, CDMX",
+        "position": "19.2671;-99.1750"
+      },
+      "og_description": "Registra avistamientos del ajolote mexicano en Xochimilco. Cada reporte ayuda al rescate del ajolote. Ciencia ciudadana del Santuario Ajolote · CIMA A.C.",
+      "has_map": true,
+      "has_video": false,
+      "has_photos": true,
+      "has_database": true,
+      "entities": [
+        "Sighting",
+        "SpecimenMedia"
+      ],
+      "linked_from": [
+        "home",
+        "science"
+      ],
+      "notes": "Sistema de registro de avistamientos de ajolote con mapa, fotos y verificación."
+    },
+    {
+      "path": "/genetics",
+      "name": "Genética",
+      "file": "src/pages/Genetics.jsx",
+      "category": "ciencia",
+      "multilingual": true,
+      "responsive": {
+        "mobile": true,
+        "tablet": true,
+        "desktop": true
+      },
+      "seo": {
+        "title": true,
+        "description": true,
+        "keywords": true,
+        "canonical": true,
+        "schema": "WebApplication",
+        "og_image": true
+      },
+      "geo": {
+        "region": "MX-CMX",
+        "placename": "Xochimilco, CDMX",
+        "position": "19.2671;-99.1750"
+      },
+      "og_description": "Base de datos genética del ajolote mexicano para prevenir su extinción. Linajes, diversidad genética y compatibilidad reproductiva. Santuario Ajolote · CIMA A.C.",
+      "has_map": false,
+      "has_video": false,
+      "has_photos": true,
+      "has_database": true,
+      "entities": [
+        "GeneticRecord",
+        "SpecimenMedia"
+      ],
+      "linked_from": [
+        "science",
+        "home"
+      ],
+      "notes": "Base de datos de registros genéticos del ajolote con herramienta de compatibilidad reproductiva."
+    },
+    {
+      "path": "/map",
+      "name": "Mapa de Conservación",
+      "file": "src/pages/ConservationMap.jsx",
+      "category": "ciencia",
+      "multilingual": true,
+      "responsive": {
+        "mobile": true,
+        "tablet": true,
+        "desktop": true
+      },
+      "seo": {
+        "title": true,
+        "description": true,
+        "keywords": true,
+        "canonical": true,
+        "schema": "WebApplication",
+        "og_image": true
+      },
+      "geo": {
+        "region": "MX-CMX",
+        "placename": "Xochimilco, CDMX",
+        "position": "19.2671;-99.1750"
+      },
+      "og_description": "Mapa interactivo del hábitat del ajolote en Xochimilco: avistamientos, zonas de conservación y actores. Santuario Ajolote · CIMA A.C.",
+      "has_map": true,
+      "has_video": false,
+      "has_photos": true,
+      "has_database": true,
+      "entities": [
+        "Sighting",
+        "EnvironmentalReport",
+        "Actor"
+      ],
+      "linked_from": [
+        "science",
+        "home"
+      ],
+      "notes": "Dashboard interactivo con mapa, incidencias, actores, clima, avistamientos y panel de voluntariado."
+    },
+    {
+      "path": "/wild-sightings",
+      "name": "Ajolote Silvestre",
+      "file": "src/pages/WildSightings.jsx",
+      "category": "ciencia",
+      "multilingual": true,
+      "responsive": {
+        "mobile": true,
+        "tablet": true,
+        "desktop": true
+      },
+      "seo": {
+        "title": true,
+        "description": true,
+        "keywords": true,
+        "canonical": true,
+        "schema": "WebApplication",
+        "og_image": true
+      },
+      "geo": {
+        "region": "MX-CMX",
+        "placename": "Xochimilco, CDMX",
+        "position": "19.2671;-99.1750"
+      },
+      "og_description": "¿Viste un ajolote silvestre en Xochimilco? Reporta tu avistamiento y contribuye al rescate del ajolote mexicano. Santuario Ajolote · CIMA A.C.",
+      "has_map": true,
+      "has_video": false,
+      "has_photos": true,
+      "has_database": true,
+      "entities": [
+        "Sighting"
+      ],
+      "linked_from": [
+        "home",
+        "science"
+      ],
+      "notes": "Página de reporte de avistamientos silvestres de ajolote en su hábitat natural."
+    },
+    {
+      "path": "/forum",
+      "name": "Foro Comunitario",
+      "file": "src/pages/Forum.jsx",
+      "category": "comunidad",
+      "multilingual": true,
+      "responsive": {
+        "mobile": true,
+        "tablet": true,
+        "desktop": true
+      },
+      "seo": {
+        "title": true,
+        "description": true,
+        "keywords": true,
+        "canonical": true,
+        "schema": "WebApplication",
+        "og_image": true
+      },
+      "geo": {
+        "region": "MX-CMX",
+        "placename": "Xochimilco, CDMX",
+        "position": "19.2671;-99.1750"
+      },
+      "og_description": "Únete a la comunidad del Santuario Ajolote: foro de debate, ciencia ciudadana y colaboración para el rescate del ajolote mexicano en Xochimilco.",
+      "has_map": false,
+      "has_video": false,
+      "has_photos": false,
+      "has_database": true,
+      "entities": [
+        "ForumPost"
+      ],
+      "linked_from": [
+        "science",
+        "home"
+      ],
+      "notes": "Foro de discusión comunitaria con categorías: general, genética, conservación, ciencia, avistamientos, proyectos."
+    },
+    {
+      "path": "/reporte-incidencia",
+      "name": "Reporte de Incidencia",
+      "file": "src/pages/ReporteIncidencia.jsx",
+      "category": "denuncia",
+      "multilingual": true,
+      "responsive": {
+        "mobile": true,
+        "tablet": true,
+        "desktop": true
+      },
+      "seo": {
+        "title": true,
+        "description": true,
+        "keywords": true,
+        "canonical": true,
+        "schema": "WebApplication",
+        "og_image": true
+      },
+      "geo": {
+        "region": "MX-CMX",
+        "placename": "Xochimilco, CDMX",
+        "position": "19.2671;-99.1750"
+      },
+      "og_description": "Reporta contaminación, derrames o daño ambiental en Xochimilco. El Santuario Ajolote canaliza tu denuncia a las autoridades competentes. CIMA A.C.",
+      "has_map": true,
+      "has_video": false,
+      "has_photos": true,
+      "has_database": true,
+      "entities": [
+        "EnvironmentalReport"
+      ],
+      "linked_from": [
+        "home",
+        "conservation"
+      ],
+      "notes": "Formulario de denuncia ambiental con mapa, fotos y categorización de contaminación."
+    },
+    {
+      "path": "/denuncia-contaminacion-san-gregorio",
+      "name": "Denuncia San Gregorio",
+      "file": "src/pages/DenunciaContaminacionSanGregorio.jsx",
+      "category": "denuncia",
+      "multilingual": true,
+      "responsive": {
+        "mobile": true,
+        "tablet": true,
+        "desktop": true
+      },
+      "seo": {
+        "title": true,
+        "description": true,
+        "keywords": true,
+        "canonical": true,
+        "schema": "WebPage",
+        "og_image": true
+      },
+      "geo": {
+        "region": "MX-CMX",
+        "placename": "San Gregorio Atlapulco, Xochimilco",
+        "position": "19.2571;-99.1069"
+      },
+      "og_description": "Denuncia ciudadana por contaminación en San Gregorio Atlapulco, Xochimilco. El Santuario Ajolote documenta y da seguimiento legal a cada reporte.",
+      "has_map": true,
+      "has_video": false,
+      "has_photos": true,
+      "has_database": true,
+      "entities": [
+        "EnvironmentalReport"
+      ],
+      "linked_from": [
+        "home",
+        "acciones-2026"
+      ],
+      "notes": "Denuncia específica de contaminación en San Gregorio Atlapulco con seguimiento legal."
+    },
+    {
+      "path": "/red-de-biofiltros",
+      "name": "Red de Biofiltros",
+      "file": "src/pages/RedDeBiofiltros.jsx",
+      "category": "proyectos",
+      "multilingual": true,
+      "responsive": {
+        "mobile": true,
+        "tablet": true,
+        "desktop": true
+      },
+      "seo": {
+        "title": true,
+        "description": true,
+        "keywords": true,
+        "canonical": true,
+        "schema": "EnvironmentalProject",
+        "og_image": true
+      },
+      "geo": {
+        "region": "MX-CMX",
+        "placename": "San Gregorio Atlapulco, Xochimilco",
+        "position": "19.2571;-99.1069"
+      },
+      "og_description": "Infraestructura ecológica de bajo costo para restaurar el agua de los canales de Xochimilco: biofiltros, humedales artificiales y estaciones solares en San Gregorio Atlapulco.",
+      "has_map": false,
+      "has_video": false,
+      "has_photos": true,
+      "has_database": true,
+      "entities": [
+        "BiofilterRequest"
+      ],
+      "linked_from": [
+        "home",
+        "acciones-2026"
+      ],
+      "notes": "Documentación técnica de la red de biofiltros con manual de construcción, vegetación filtrante y arquitectura del sistema."
+    },
+    {
+      "path": "/acciones-legales",
+      "name": "Acciones Legales",
+      "file": "src/pages/AccionesLegales.jsx",
+      "category": "denuncia",
+      "multilingual": true,
+      "responsive": {
+        "mobile": true,
+        "tablet": true,
+        "desktop": true
+      },
+      "seo": {
+        "title": true,
+        "description": true,
+        "keywords": true,
+        "canonical": true,
+        "schema": "WebPage",
+        "og_image": true
+      },
+      "geo": {
+        "region": "MX-CMX",
+        "placename": "Xochimilco, CDMX",
+        "position": "19.2671;-99.1750"
+      },
+      "og_description": "Acciones legales del Santuario Ajolote para la defensa del humedal de Xochimilco y el rescate del ajolote mexicano. CIMA A.C.",
+      "has_map": false,
+      "has_video": false,
+      "has_photos": true,
+      "has_database": false,
+      "entities": [],
+      "linked_from": [
+        "home",
+        "acciones-2026"
+      ],
+      "notes": "Documentación de acciones legales y denuncias formales ante autoridades ambientales."
+    },
+    {
+      "path": "/carta-ramsar",
+      "name": "Carta Ramsar",
+      "file": "src/pages/CartaRamsar.jsx",
+      "category": "denuncia",
+      "multilingual": true,
+      "responsive": {
+        "mobile": true,
+        "tablet": true,
+        "desktop": true
+      },
+      "seo": {
+        "title": true,
+        "description": true,
+        "keywords": true,
+        "canonical": true,
+        "schema": "Article",
+        "og_image": true
+      },
+      "geo": {
+        "region": "MX-CMX",
+        "placename": "Xochimilco, CDMX",
+        "position": "19.2671;-99.1750"
+      },
+      "og_description": "Carta dirigida a la Convención de Ramsar sobre el estado del humedal de Xochimilco y el rescate del ajolote mexicano. Santuario Ajolote · CIMA A.C.",
+      "has_map": false,
+      "has_video": false,
+      "has_photos": true,
+      "has_database": false,
+      "entities": [],
+      "linked_from": [
+        "home"
+      ],
+      "notes": "Documento formal a la Convención de Ramsar sobre el deterioro del humedal de Xochimilco."
+    },
+    {
+      "path": "/observatorio-cempasuchil",
+      "name": "Observatorio Cempasúchil",
+      "file": "src/pages/ObservatorioCempasuchil.jsx",
+      "category": "investigacion",
+      "multilingual": true,
+      "responsive": {
+        "mobile": true,
+        "tablet": true,
+        "desktop": true
+      },
+      "seo": {
+        "title": true,
+        "description": true,
+        "keywords": true,
+        "canonical": true,
+        "schema": "ScholarlyArticle",
+        "og_image": true
+      },
+      "geo": {
+        "region": "MX-CMX",
+        "placename": "San Gregorio Atlapulco, Xochimilco",
+        "position": "19.2571;-99.1069"
+      },
+      "og_description": "Investigación científica sobre cempasúchil en Xochimilco: biopiratería, patentes, híbridos F1, toxicología ambiental, ecotoxicología y efectos sobre el ajolote mexicano (Ambystoma mexicanum). Día de Muertos 2026.",
+      "has_map": false,
+      "has_video": false,
+      "has_photos": true,
+      "has_database": false,
+      "entities": [],
+      "linked_from": [
+        "home"
+      ],
+      "notes": "Investigación periodística y científica sobre cempasúchil: biopiratería, patentes, toxicología, ecotoxicología y conclusión general."
+    },
+    {
+      "path": "/ciencia-mexicana-cempasuchil",
+      "name": "Ciencia Mexicana Cempasúchil",
+      "file": "src/pages/CienciaMexicanaCempasuchil.jsx",
+      "category": "investigacion",
+      "multilingual": true,
+      "responsive": {
+        "mobile": true,
+        "tablet": true,
+        "desktop": true
+      },
+      "seo": {
+        "title": true,
+        "description": true,
+        "keywords": true,
+        "canonical": true,
+        "schema": "Article",
+        "og_image": true
+      },
+      "geo": {
+        "region": "MX-CMX",
+        "placename": "Xochimilco, CDMX",
+        "position": "19.2671;-99.1750"
+      },
+      "og_description": "Ciencia mexicana del cempasúchil: investigación, conservación y mejoramiento genético de Tagetes erecta. Contraparte institucional a la biopiratería internacional.",
+      "has_map": false,
+      "has_video": false,
+      "has_photos": true,
+      "has_database": false,
+      "entities": [],
+      "linked_from": [
+        "observatorio-cempasuchil"
+      ],
+      "notes": "Página de ciencia mexicana sobre cempasúchil como contraparte a la narrativa de biopiratería."
+    },
+    {
+      "path": "/reportaje-drenajes",
+      "name": "Reportaje Drenajes",
+      "file": "src/pages/ReportajeDrenajesPage.jsx",
+      "category": "investigacion",
+      "multilingual": true,
+      "responsive": {
+        "mobile": true,
+        "tablet": true,
+        "desktop": true
+      },
+      "seo": {
+        "title": true,
+        "description": true,
+        "keywords": true,
+        "canonical": true,
+        "schema": "Article",
+        "og_image": true
+      },
+      "geo": {
+        "region": "MX-CMX",
+        "placename": "Xochimilco, CDMX",
+        "position": "19.2671;-99.1750"
+      },
+      "og_description": "Investigación del Santuario Ajolote sobre drenajes, descargas ilegales y contaminación en el humedal de Xochimilco. Datos, mapas y denuncias.",
+      "has_map": true,
+      "has_video": false,
+      "has_photos": true,
+      "has_database": false,
+      "entities": [],
+      "linked_from": [
+        "home",
+        "science"
+      ],
+      "notes": "Reportaje investigativo sobre drenajes y descargas ilegales en Xochimilco."
+    },
+    {
+      "path": "/zona-de-sacrificio",
+      "name": "Zona de Sacrificio",
+      "file": "src/pages/ZonaSacrificio.jsx",
+      "category": "investigacion",
+      "multilingual": true,
+      "responsive": {
+        "mobile": true,
+        "tablet": true,
+        "desktop": true
+      },
+      "seo": {
+        "title": true,
+        "description": true,
+        "keywords": true,
+        "canonical": true,
+        "schema": "Article",
+        "og_image": true
+      },
+      "geo": {
+        "region": "MX-CMX",
+        "placename": "Xochimilco, CDMX",
+        "position": "19.2671;-99.1750"
+      },
+      "og_description": "Investigación especial del Santuario Ajolote sobre la ecología de la injusticia ambiental en Xochimilco y su impacto en el ajolote mexicano.",
+      "has_map": false,
+      "has_video": false,
+      "has_photos": true,
+      "has_database": false,
+      "entities": [],
+      "linked_from": [
+        "home",
+        "science"
+      ],
+      "notes": "Investigación especial sobre injusticia ambiental y ecología en Xochimilco."
+    },
+    {
+      "path": "/actores",
+      "name": "Actores Ambientales",
+      "file": "src/pages/Actores.jsx",
+      "category": "denuncia",
+      "multilingual": true,
+      "responsive": {
+        "mobile": true,
+        "tablet": true,
+        "desktop": true
+      },
+      "seo": {
+        "title": true,
+        "description": true,
+        "keywords": true,
+        "canonical": true,
+        "schema": "WebPage",
+        "og_image": true
+      },
+      "geo": {
+        "region": "MX-CMX",
+        "placename": "Xochimilco, CDMX",
+        "position": "19.2671;-99.1750"
+      },
+      "og_description": "Directorio de actores ambientales en Xochimilco: quienes protegen y quienes dañan el hábitat del ajolote. Santuario Ajolote · CIMA A.C.",
+      "has_map": true,
+      "has_video": false,
+      "has_photos": true,
+      "has_database": true,
+      "entities": [
+        "Actor"
+      ],
+      "linked_from": [
+        "conservation",
+        "science"
+      ],
+      "notes": "Directorio de actores ambientales con mapa y categorización de protectores y agresores."
+    },
+    {
+      "path": "/santuario-ajolote",
+      "name": "Santuario Ajolote",
+      "file": "src/pages/SantuarioAjolote.jsx",
+      "category": "institucional",
+      "multilingual": true,
+      "responsive": {
+        "mobile": true,
+        "tablet": true,
+        "desktop": true
+      },
+      "seo": {
+        "title": true,
+        "description": true,
+        "keywords": true,
+        "canonical": true,
+        "schema": "NGO",
+        "og_image": true
+      },
+      "geo": {
+        "region": "MX-CMX",
+        "placename": "Xochimilco, CDMX",
+        "position": "19.2671;-99.1750"
+      },
+      "og_description": "El Santuario Ajolote es la iniciativa de CIMA A.C. para rescatar al ajolote mexicano (Ambystoma mexicanum) y restaurar su hábitat en Xochimilco. Dona y participa.",
+      "has_map": false,
+      "has_video": false,
+      "has_photos": true,
+      "has_database": true,
+      "entities": [
+        "Donation"
+      ],
+      "linked_from": [
+        "quienes-somos",
+        "home"
+      ],
+      "notes": "Página del santuario con formulario de donación y llamado a la acción."
+    },
+    {
+      "path": "/historia-xochimilco",
+      "name": "Historia Xochimilco",
+      "file": "src/pages/HistoriaXochimilco.jsx",
+      "category": "institucional",
+      "multilingual": true,
+      "responsive": {
+        "mobile": true,
+        "tablet": true,
+        "desktop": true
+      },
+      "seo": {
+        "title": true,
+        "description": true,
+        "keywords": true,
+        "canonical": true,
+        "schema": "Article",
+        "og_image": true
+      },
+      "geo": {
+        "region": "MX-CMX",
+        "placename": "Xochimilco, CDMX",
+        "position": "19.2671;-99.1750"
+      },
+      "og_description": "Historia de Xochimilco: patrimonio UNESCO, chinampas prehispánicas y el ajolote mexicano. Archivo histórico del Santuario Ajolote · CIMA A.C.",
+      "has_map": false,
+      "has_video": false,
+      "has_photos": true,
+      "has_database": true,
+      "entities": [
+        "HistoricalDocument"
+      ],
+      "linked_from": [
+        "science"
+      ],
+      "notes": "Archivo histórico de Xochimilco con documentos, fotos y videos enviados por la comunidad."
+    },
+    {
+      "path": "/dia-de-muertos",
+      "name": "Día de Muertos",
+      "file": "src/pages/DiaDeMuertos.jsx",
+      "category": "turismo",
+      "multilingual": true,
+      "responsive": {
+        "mobile": true,
+        "tablet": true,
+        "desktop": true
+      },
+      "seo": {
+        "title": true,
+        "description": true,
+        "keywords": true,
+        "canonical": true,
+        "schema": "WebPage",
+        "og_image": true
+      },
+      "geo": {
+        "region": "MX-CMX",
+        "placename": "Xochimilco, CDMX",
+        "position": "19.2671;-99.1750"
+      },
+      "og_description": "Día de Muertos en Xochimilco: tradición, cempasúchil y conservación del ajolote mexicano. Santuario Ajolote · CIMA A.C.",
+      "has_map": false,
+      "has_video": false,
+      "has_photos": true,
+      "has_database": false,
+      "entities": [],
+      "linked_from": [
+        "turismo-responsable",
+        "home"
+      ],
+      "notes": "Página temática de Día de Muertos con enfoque cultural y de conservación."
+    },
+    {
+      "path": "/infografia-ai",
+      "name": "Infografías IA",
+      "file": "src/pages/InfografiaAI.jsx",
+      "category": "ciencia",
+      "multilingual": true,
+      "responsive": {
+        "mobile": true,
+        "tablet": true,
+        "desktop": true
+      },
+      "seo": {
+        "title": true,
+        "description": true,
+        "keywords": true,
+        "canonical": true,
+        "schema": "WebApplication",
+        "og_image": true
+      },
+      "geo": {
+        "region": "MX-CMX",
+        "placename": "Xochimilco, CDMX",
+        "position": "19.2671;-99.1750"
+      },
+      "og_description": "Infografías generadas con IA sobre el ajolote mexicano, su hábitat y conservación en Xochimilco. Santuario Ajolote · CIMA A.C.",
+      "has_map": false,
+      "has_video": false,
+      "has_photos": true,
+      "has_database": false,
+      "entities": [],
+      "linked_from": [
+        "science"
+      ],
+      "notes": "Galería de infografías generadas con IA sobre el ajolote y su conservación."
+    },
+    {
+      "path": "/video-galeria",
+      "name": "Videoteca",
+      "file": "src/pages/VideoGaleria.jsx",
+      "category": "ciencia",
+      "multilingual": true,
+      "responsive": {
+        "mobile": true,
+        "tablet": true,
+        "desktop": true
+      },
+      "seo": {
+        "title": true,
+        "description": true,
+        "keywords": true,
+        "canonical": true,
+        "schema": "WebPage",
+        "og_image": true
+      },
+      "geo": {
+        "region": "MX-CMX",
+        "placename": "Xochimilco, CDMX",
+        "position": "19.2671;-99.1750"
+      },
+      "og_description": "Videoteca del Santuario Ajolote: documentales, investigaciones y videos del ajolote mexicano y su hábitat en Xochimilco.",
+      "has_map": false,
+      "has_video": true,
+      "has_photos": false,
+      "has_database": false,
+      "entities": [],
+      "linked_from": [
+        "science"
+      ],
+      "notes": "Galería de videos y documentales sobre el ajolote y Xochimilco."
+    },
+    {
+      "path": "/proyectos/rescate-7-chinampas",
+      "name": "Rescate 7 Chinampas",
+      "file": "src/pages/RescateChinampas.jsx",
+      "category": "proyectos",
+      "multilingual": true,
+      "responsive": {
+        "mobile": true,
+        "tablet": true,
+        "desktop": true
+      },
+      "seo": {
+        "title": true,
+        "description": true,
+        "keywords": true,
+        "canonical": true,
+        "schema": "Project",
+        "og_image": true
+      },
+      "geo": {
+        "region": "MX-CMX",
+        "placename": "San Gregorio Atlapulco, Xochimilco",
+        "position": "19.2571;-99.1069"
+      },
+      "og_description": "Restauración hidrológica y recuperación de chinampas en San Gregorio Atlapulco, Xochimilco. Proyecto del Santuario Ajolote para rescatar el hábitat del ajolote mexicano.",
+      "has_map": false,
+      "has_video": false,
+      "has_photos": true,
+      "has_database": false,
+      "entities": [],
+      "linked_from": [
+        "acciones-2026",
+        "home"
+      ],
+      "notes": "Proyecto de restauración hidrológica de 7 chinampas en San Gregorio Atlapulco."
+    },
+    {
+      "path": "/proyectos/chile-chicuarote",
+      "name": "Chile Chicuarote",
+      "file": "src/pages/ChileChicuarote.jsx",
+      "category": "proyectos",
+      "multilingual": true,
+      "responsive": {
+        "mobile": true,
+        "tablet": true,
+        "desktop": true
+      },
+      "seo": {
+        "title": true,
+        "description": true,
+        "keywords": true,
+        "canonical": true,
+        "schema": "Project",
+        "og_image": true
+      },
+      "geo": {
+        "region": "MX-CMX",
+        "placename": "Xochimilco, CDMX",
+        "position": "19.2671;-99.1750"
+      },
+      "og_description": "Rescate del chile chicuarote nativo de Xochimilco: agricultura tradicional, economía circular y conservación biocultural. Un proyecto del Santuario Ajolote · CIMA A.C.",
+      "has_map": false,
+      "has_video": false,
+      "has_photos": true,
+      "has_database": false,
+      "entities": [],
+      "linked_from": [
+        "acciones-2026",
+        "home"
+      ],
+      "notes": "Rescate biocultural del chile chicuarote nativo de Xochimilco."
+    },
+    {
+      "path": "/proyectos/refugio-tortuga-casquito",
+      "name": "Refugio Tortuga Casquito",
+      "file": "src/pages/TortugaCasquito.jsx",
+      "category": "proyectos",
+      "multilingual": true,
+      "responsive": {
+        "mobile": true,
+        "tablet": true,
+        "desktop": true
+      },
+      "seo": {
+        "title": true,
+        "description": true,
+        "keywords": true,
+        "canonical": true,
+        "schema": "Project",
+        "og_image": true
+      },
+      "geo": {
+        "region": "MX-CMX",
+        "placename": "Xochimilco, CDMX",
+        "position": "19.2671;-99.1750"
+      },
+      "og_description": "Refugio de la tortuga casquito (Kinosternon integrum) en Xochimilco. Investigación, conservación y educación ambiental del Santuario Ajolote · CIMA A.C.",
+      "has_map": false,
+      "has_video": false,
+      "has_photos": true,
+      "has_database": false,
+      "entities": [],
+      "linked_from": [
+        "acciones-2026",
+        "home"
+      ],
+      "notes": "Refugio de tortuga casquito con investigación, conservación y educación ambiental."
+    },
+    {
+      "path": "/proyectos/laboratorio-reproduccion-coyoacan",
+      "name": "Laboratorio Coyoacán",
+      "file": "src/pages/LaboratorioCoyoacan.jsx",
+      "category": "proyectos",
+      "multilingual": true,
+      "responsive": {
+        "mobile": true,
+        "tablet": true,
+        "desktop": true
+      },
+      "seo": {
+        "title": true,
+        "description": true,
+        "keywords": true,
+        "canonical": true,
+        "schema": "Project",
+        "og_image": true
+      },
+      "geo": {
+        "region": "MX-CMX",
+        "placename": "Coyoacán, CDMX",
+        "position": "19.3466;-99.1619"
+      },
+      "og_description": "Laboratorio de reproducción y conservación genética del ajolote mexicano en Coyoacán. Conecta la ciencia con las cooperativas de Xochimilco. Santuario Ajolote · CIMA A.C.",
+      "has_map": false,
+      "has_video": false,
+      "has_photos": true,
+      "has_database": false,
+      "entities": [],
+      "linked_from": [
+        "acciones-2026",
+        "home"
+      ],
+      "notes": "Laboratorio de reproducción genética del ajolote en Coyoacán."
+    },
+    {
+      "path": "/informe-colorimetria-san-gregorio",
+      "name": "Informe Colorimetría",
+      "file": "src/pages/InformeColorimetriaSanGregorio.jsx",
+      "category": "investigacion",
+      "multilingual": true,
+      "responsive": {
+        "mobile": true,
+        "tablet": true,
+        "desktop": true
+      },
+      "seo": {
+        "title": true,
+        "description": true,
+        "keywords": true,
+        "canonical": true,
+        "schema": "Article",
+        "og_image": true
+      },
+      "geo": {
+        "region": "MX-CMX",
+        "placename": "San Gregorio Atlapulco, Xochimilco",
+        "position": "19.2571;-99.1069"
+      },
+      "og_description": "Informe técnico de tamizaje colorimétrico del agua en San Gregorio Atlapulco, Xochimilco. Análisis de calidad del agua y monitoreo de contaminantes. Santuario Ajolote.",
+      "has_map": false,
+      "has_video": false,
+      "has_photos": true,
+      "has_database": false,
+      "entities": [],
+      "linked_from": [
+        "home"
+      ],
+      "notes": "Informe técnico de colorimetría con gráficas, tablas y conclusiones descargables."
+    },
+    {
+      "path": "/monitoreo-contaminantes-atenco",
+      "name": "Monitoreo Atenco",
+      "file": "src/pages/MonitoreoAtenco.jsx",
+      "category": "investigacion",
+      "multilingual": true,
+      "responsive": {
+        "mobile": true,
+        "tablet": true,
+        "desktop": true
+      },
+      "seo": {
+        "title": true,
+        "description": true,
+        "keywords": true,
+        "canonical": true,
+        "schema": "Article",
+        "og_image": true
+      },
+      "geo": {
+        "region": "MX-CMX",
+        "placename": "Xochimilco, CDMX",
+        "position": "19.2671;-99.1750"
+      },
+      "og_description": "Monitoreo de contaminantes en el drenaje Atenco, Xochimilco. Análisis de 4 puntos de muestreo 2024-2026. Santuario Ajolote · CIMA A.C.",
+      "has_map": true,
+      "has_video": false,
+      "has_photos": true,
+      "has_database": false,
+      "entities": [],
+      "linked_from": [
+        "home"
+      ],
+      "notes": "Monitoreo de contaminantes con mapa de 4 puntos, tablas, gráficas y denuncias."
+    },
+    {
+      "path": "/playacocinas",
+      "name": "Batalla por la Playa",
+      "file": "src/pages/BatallaPorLaPlaya.jsx",
+      "category": "turismo",
+      "multilingual": true,
+      "responsive": {
+        "mobile": true,
+        "tablet": true,
+        "desktop": true
+      },
+      "seo": {
+        "title": true,
+        "description": true,
+        "keywords": true,
+        "canonical": true,
+        "schema": "Article",
+        "og_image": true
+      },
+      "geo": {
+        "region": "MX-NAY",
+        "placename": "Playa Las Cocinas, Punta de Mita, Nayarit",
+        "position": "20.77;-105.53"
+      },
+      "og_description": "Conoce la historia de Batalla por la Playa en Playa Las Cocinas, Punta de Mita, Nayarit: defensa comunitaria, justicia ambiental, ZOFEMAT, restauración y turismo responsable.",
+      "has_map": true,
+      "has_video": false,
+      "has_photos": true,
+      "has_database": false,
+      "entities": [],
+      "linked_from": [
+        "turismo-responsable",
+        "home"
+      ],
+      "notes": "Historia de la defensa comunitaria de Playa Las Cocinas en Nayarit con cronología, galería y CTA."
+    },
+    {
+      "path": "/playacocinas/turismo",
+      "name": "Turismo Playa Cocinas",
+      "file": "src/pages/TurismoPlayaCocinas.jsx",
+      "category": "turismo",
+      "multilingual": true,
+      "responsive": {
+        "mobile": true,
+        "tablet": true,
+        "desktop": true
+      },
+      "seo": {
+        "title": true,
+        "description": true,
+        "keywords": true,
+        "canonical": true,
+        "schema": "TouristAttraction",
+        "og_image": true
+      },
+      "geo": {
+        "region": "MX-NAY",
+        "placename": "Playa Las Cocinas, Punta de Mita, Nayarit",
+        "position": "20.77;-105.53"
+      },
+      "og_description": "Turismo comunitario en Playa Las Cocinas, Punta de Mita, Nayarit. Experiencias con los defensores de la playa. Santuario Ajolote.",
+      "has_map": false,
+      "has_video": false,
+      "has_photos": true,
+      "has_database": false,
+      "entities": [],
+      "linked_from": [
+        "batalla-por-la-playa"
+      ],
+      "notes": "Página de turismo comunitario en Playa Las Cocinas con experiencias y reservas."
+    },
+    {
+      "path": "/playa",
+      "name": "Playa Nayarit",
+      "file": "src/pages/Playa.jsx",
+      "category": "turismo",
+      "multilingual": true,
+      "responsive": {
+        "mobile": true,
+        "tablet": true,
+        "desktop": true
+      },
+      "seo": {
+        "title": true,
+        "description": true,
+        "keywords": true,
+        "canonical": true,
+        "schema": "TouristDestination",
+        "og_image": true
+      },
+      "geo": {
+        "region": "MX-NAY",
+        "placename": "Punta de Mita, Nayarit",
+        "position": "20.7833;-105.5167"
+      },
+      "og_description": "Turismo ecológico comunitario en Punta de Mita y Higuera Blanca, Nayarit. Surf, pesca responsable, senderismo y hospedaje con anfitriones locales que defienden las playas.",
+      "has_map": true,
+      "has_video": false,
+      "has_photos": true,
+      "has_database": false,
+      "entities": [],
+      "linked_from": [
+        "turismo-responsable",
+        "home"
+      ],
+      "notes": "Turismo ecológico comunitario en Nayarit con experiencias, playas, mapa y banner de defensores."
+    },
+    {
+      "path": "/voluntariado/remoto",
+      "name": "Voluntariado Remoto",
+      "file": "src/pages/VoluntariadoRemotoPage.jsx",
+      "category": "comunidad",
+      "multilingual": true,
+      "responsive": {
+        "mobile": true,
+        "tablet": true,
+        "desktop": true
+      },
+      "seo": {
+        "title": true,
+        "description": true,
+        "keywords": true,
+        "canonical": true,
+        "schema": "WebPage",
+        "og_image": true
+      },
+      "geo": {
+        "region": "MX-CMX",
+        "placename": "Xochimilco, CDMX",
+        "position": "19.2671;-99.1750"
+      },
+      "og_description": "Voluntariado remoto del Santuario Ajolote: unidad de operaciones especiales para apoyar el rescate del ajolote desde cualquier lugar del mundo.",
+      "has_map": false,
+      "has_video": false,
+      "has_photos": true,
+      "has_database": false,
+      "entities": [],
+      "linked_from": [
+        "voluntariado"
+      ],
+      "notes": "Voluntariado remoto con descripción de la Unidad de Operaciones Especiales."
+    },
+    {
+      "path": "/voluntariado/brigadas",
+      "name": "Brigadas de Conservación",
+      "file": "src/pages/VoluntariadoBrigadasPage.jsx",
+      "category": "comunidad",
+      "multilingual": true,
+      "responsive": {
+        "mobile": true,
+        "tablet": true,
+        "desktop": true
+      },
+      "seo": {
+        "title": true,
+        "description": true,
+        "keywords": true,
+        "canonical": true,
+        "schema": "WebPage",
+        "og_image": true
+      },
+      "geo": {
+        "region": "MX-CMX",
+        "placename": "Xochimilco, CDMX",
+        "position": "19.2671;-99.1750"
+      },
+      "og_description": "Brigadas presenciales del Santuario Ajolote en Xochimilco: restauración de chinampas, monitoreo del ajolote y trabajo de campo con la comunidad.",
+      "has_map": false,
+      "has_video": false,
+      "has_photos": true,
+      "has_database": false,
+      "entities": [],
+      "linked_from": [
+        "voluntariado"
+      ],
+      "notes": "Brigadas presenciales de conservación con descripción de actividades de campo."
+    },
+    {
+      "path": "/certificado",
+      "name": "Guardián Ajolote",
+      "file": "src/pages/GuardianAjolote.jsx",
+      "category": "comunidad",
+      "multilingual": true,
+      "responsive": {
+        "mobile": true,
+        "tablet": true,
+        "desktop": true
+      },
+      "seo": {
+        "title": true,
+        "description": true,
+        "keywords": true,
+        "canonical": true,
+        "schema": "WebPage",
+        "og_image": true
+      },
+      "geo": {
+        "region": "MX-CMX",
+        "placename": "Xochimilco, CDMX",
+        "position": "19.2671;-99.1750"
+      },
+      "og_description": "Certificado Guardián del Ajolote: reconocimiento a quienes contribuyen al rescate del ajolote mexicano. Santuario Ajolote · CIMA A.C.",
+      "has_map": false,
+      "has_video": false,
+      "has_photos": true,
+      "has_database": false,
+      "entities": [],
+      "linked_from": [
+        "voluntariado"
+      ],
+      "notes": "Certificado de guardián del ajolote para voluntarios."
+    },
+    {
+      "path": "/about",
+      "name": "Acerca de",
+      "file": "src/pages/About.jsx",
+      "category": "institucional",
+      "multilingual": true,
+      "responsive": {
+        "mobile": true,
+        "tablet": true,
+        "desktop": true
+      },
+      "seo": {
+        "title": true,
+        "description": true,
+        "keywords": true,
+        "canonical": true,
+        "schema": "WebPage",
+        "og_image": true
+      },
+      "geo": {
+        "region": "MX-CMX",
+        "placename": "Xochimilco, CDMX",
+        "position": "19.2671;-99.1750"
+      },
+      "og_description": "Acerca del Santuario Ajolote: misión, visión y equipo detrás del rescate del ajolote mexicano en Xochimilco. CIMA A.C.",
+      "has_map": false,
+      "has_video": false,
+      "has_photos": true,
+      "has_database": false,
+      "entities": [],
+      "linked_from": [
+        "quienes-somos",
+        "footer"
+      ],
+      "notes": "Página \"Acerca de\" con información institucional."
+    },
+    {
+      "path": "/contacto",
+      "name": "Contacto",
+      "file": "src/pages/Contact.jsx",
+      "category": "institucional",
+      "multilingual": true,
+      "responsive": {
+        "mobile": true,
+        "tablet": true,
+        "desktop": true
+      },
+      "seo": {
+        "title": true,
+        "description": true,
+        "keywords": true,
+        "canonical": true,
+        "schema": "WebPage",
+        "og_image": true
+      },
+      "geo": {
+        "region": "MX-CMX",
+        "placename": "Xochimilco, CDMX",
+        "position": "19.2671;-99.1750"
+      },
+      "og_description": "Contacto del Santuario Ajolote · CIMA A.C. Escríbenos para participar en el rescate del ajolote mexicano y la conservación de Xochimilco.",
+      "has_map": false,
+      "has_video": false,
+      "has_photos": false,
+      "has_database": false,
+      "entities": [],
+      "linked_from": [
+        "quienes-somos",
+        "footer"
+      ],
+      "notes": "Formulario de contacto institucional."
+    }
+  ],
+  "private_pages": [
+    {
+      "path": "/profile",
+      "name": "Perfil de Usuario",
+      "file": "src/pages/UserProfile.jsx",
+      "reason": "Requiere login. Solo visible para usuarios autenticados.",
+      "category": "privado-usuario"
+    },
+    {
+      "path": "/moderation",
+      "name": "Panel de Moderación",
+      "file": "src/pages/ModerationPanel.jsx",
+      "reason": "Solo admin. Panel de administración para verificación de contenido.",
+      "category": "privado-admin"
+    },
+    {
+      "path": "/magic-axolotl",
+      "name": "Ajolote Mágico",
+      "file": "src/pages/MagicAxolotl.jsx",
+      "reason": "Coleccionables digitales privados. No enlazado desde navegación pública.",
+      "category": "privado-usuario"
+    },
+    {
+      "path": "/mi-galeria",
+      "name": "Mi Galería",
+      "file": "src/pages/UserGallery.jsx",
+      "reason": "Galería personal de usuario. Requiere login.",
+      "category": "privado-usuario"
+    },
+    {
+      "path": "/chinampas",
+      "name": "Chinampas Virtuales",
+      "file": "src/pages/ChinampasVirtuales.jsx",
+      "reason": "Sistema de adopción de parcelas. No enlazado desde navegación pública.",
+      "category": "privado-sistema"
+    },
+    {
+      "path": "/casino",
+      "name": "Casino del Ajolote",
+      "file": "src/pages/Casino.jsx",
+      "reason": "Juegos con ajolopesos. No enlazado desde navegación pública.",
+      "category": "privado-sistema"
+    },
+    {
+      "path": "/publicar-instagram",
+      "name": "Publicar Instagram",
+      "file": "src/pages/PublicarInstagram.jsx",
+      "reason": "Herramienta administrativa para publicar en redes sociales.",
+      "category": "privado-admin"
+    },
+    {
+      "path": "/migracion-seo",
+      "name": "Migración SEO",
+      "file": "src/pages/MigracionSEO.jsx",
+      "reason": "Herramienta interna de migración SEO. No pública.",
+      "category": "privado-admin"
+    },
+    {
+      "path": "/genetics/:id",
+      "name": "Perfil de Especimen",
+      "file": "src/pages/SpecimenProfile.jsx",
+      "reason": "Ruta dinámica. Solo accesible desde la página de genética.",
+      "category": "dinamico"
+    },
+    {
+      "path": "/proyectos/:slug",
+      "name": "Detalle de Proyecto",
+      "file": "src/pages/ProyectoDetalle.jsx",
+      "reason": "Ruta dinámica. Solo accesible desde Acciones 2026.",
+      "category": "dinamico"
+    },
+    {
+      "path": "/borahae",
+      "name": "Borahae Ajolote",
+      "file": "src/pages/BorahaeAjolote.jsx",
+      "reason": "Campaña especial. Ruta pública pero no enlazada desde navegación principal.",
+      "category": "publico-no-enlazado"
+    }
+  ],
+  "database_entities": [
+    {
+      "name": "Sighting",
+      "description": "Avistamientos de ajolote registrados por ciudadanos",
+      "public": true,
+      "has_geo": true,
+      "has_photos": true
+    },
+    {
+      "name": "GeneticRecord",
+      "description": "Registros genéticos de especimenes de ajolote",
+      "public": true,
+      "has_geo": false,
+      "has_photos": true
+    },
+    {
+      "name": "SpecimenMedia",
+      "description": "Fotos y videos de especimenes",
+      "public": true,
+      "has_geo": false,
+      "has_photos": true
+    },
+    {
+      "name": "EnvironmentalReport",
+      "description": "Reportes y denuncias de contaminación",
+      "public": true,
+      "has_geo": true,
+      "has_photos": true
+    },
+    {
+      "name": "Actor",
+      "description": "Actores ambientales en Xochimilco",
+      "public": true,
+      "has_geo": true,
+      "has_photos": true
+    },
+    {
+      "name": "ScientificPublication",
+      "description": "Publicaciones científicas enviadas por investigadores",
+      "public": true,
+      "has_geo": true,
+      "has_photos": false
+    },
+    {
+      "name": "HistoricalDocument",
+      "description": "Documentos históricos de Xochimilco",
+      "public": true,
+      "has_geo": false,
+      "has_photos": true
+    },
+    {
+      "name": "ForumPost",
+      "description": "Posts del foro comunitario",
+      "public": true,
+      "has_geo": false,
+      "has_photos": false
+    },
+    {
+      "name": "Donation",
+      "description": "Donaciones recibidas",
+      "public": false,
+      "has_geo": false,
+      "has_photos": false
+    },
+    {
+      "name": "VoluntarioRegistro",
+      "description": "Registros de voluntarios",
+      "public": false,
+      "has_geo": false,
+      "has_photos": false
+    },
+    {
+      "name": "BiofilterRequest",
+      "description": "Solicitudes de biofiltros",
+      "public": false,
+      "has_geo": false,
+      "has_photos": false
+    },
+    {
+      "name": "ChinampaProject",
+      "description": "Proyectos de chinampas",
+      "public": true,
+      "has_geo": true,
+      "has_photos": true
+    },
+    {
+      "name": "ChinampaParcel",
+      "description": "Parcelas de chinampas",
+      "public": false,
+      "has_geo": true,
+      "has_photos": true
+    },
+    {
+      "name": "MagicAxolotl",
+      "description": "Coleccionables digitales de ajolotes",
+      "public": false,
+      "has_geo": false,
+      "has_photos": true
+    },
+    {
+      "name": "MagicAxolotlPurchase",
+      "description": "Compras de coleccionables",
+      "public": false,
+      "has_geo": false,
+      "has_photos": false
+    },
+    {
+      "name": "DynamicPrice",
+      "description": "Precios dinámicos de coleccionables",
+      "public": true,
+      "has_geo": false,
+      "has_photos": false
+    },
+    {
+      "name": "UserRewards",
+      "description": "Recompensas de usuarios (ajolopesos)",
+      "public": false,
+      "has_geo": false,
+      "has_photos": false
+    },
+    {
+      "name": "AjolopesosTransfer",
+      "description": "Transferencias de ajolopesos",
+      "public": false,
+      "has_geo": false,
+      "has_photos": false
+    },
+    {
+      "name": "UserProfile",
+      "description": "Perfiles de usuario",
+      "public": true,
+      "has_geo": false,
+      "has_photos": true
+    },
+    {
+      "name": "UserMessage",
+      "description": "Mensajes entre usuarios",
+      "public": false,
+      "has_geo": false,
+      "has_photos": false
+    },
+    {
+      "name": "TourContract",
+      "description": "Contratos de tours",
+      "public": false,
+      "has_geo": false,
+      "has_photos": false
+    },
+    {
+      "name": "UserGallery",
+      "description": "Galerías de usuario",
+      "public": false,
+      "has_geo": false,
+      "has_photos": true
+    },
+    {
+      "name": "ConservationProject",
+      "description": "Proyectos de conservación",
+      "public": true,
+      "has_geo": true,
+      "has_photos": true
+    }
+  ],
+  "interactive_maps": [
+    {
+      "page": "/map",
+      "component": "ConservationMap",
+      "description": "Mapa principal de conservación con capas ambientales, avistamientos y actores"
+    },
+    {
+      "page": "/sightings",
+      "component": "Sightings",
+      "description": "Mapa de avistamientos de ajolote"
+    },
+    {
+      "page": "/wild-sightings",
+      "component": "WildSightings",
+      "description": "Mapa de avistamientos silvestres"
+    },
+    {
+      "page": "/reporte-incidencia",
+      "component": "ReporteIncidencia",
+      "description": "Mapa para reportar incidencias ambientales"
+    },
+    {
+      "page": "/actores",
+      "component": "Actores",
+      "description": "Mapa de actores ambientales"
+    },
+    {
+      "page": "/monitoreo-contaminantes-atenco",
+      "component": "MonitoreoAtenco",
+      "description": "Mapa de 4 puntos de monitoreo de contaminantes"
+    },
+    {
+      "page": "/playacocinas",
+      "component": "BatallaPorLaPlaya",
+      "description": "Mapa de Playa Las Cocinas, Nayarit"
+    },
+    {
+      "page": "/playa",
+      "component": "Playa",
+      "description": "Mapa de playas de Punta de Mita, Nayarit"
+    }
+  ]
+}
