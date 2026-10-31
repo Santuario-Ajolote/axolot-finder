@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+  <!-- ═══ Página Principal ═══ -->
+  <url>
+    <loc>https://axolotfinder.org/</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://media.base44.com/images/public/6a0001949163ade945a0c48b/7c2ee6c6f_Logotipopositivo2.png</image:loc>
+      <image:title>Santuario Ajolote · Axolot Finder — Conservación del Ajolote Mexicano</image:title>
+    </image:image>
+  </url>
+
+  <!-- ═══ Ciencia y Datos ═══ -->
+  <url>
+    <loc>https://axolotfinder.org/map</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.95</priority>
+  </url>
+
+  <url>
+    <loc>https://axolotfinder.org/sightings</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://axolotfinder.org/genetics</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.98</priority>
+  </url>
+
+  <url>
+    <loc>https://axolotfinder.org/science</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://axolotfinder.org/wild-sightings</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://axolotfinder.org/infografia-ai</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://axolotfinder.org/video-galeria</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+
+  <url>
+    <loc>https://axolotfinder.org/historia-xochimilco</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://axolotfinder.org/mi-galeria</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- ═══ Observatorio Cempasúchil ═══ -->
+  <url>
+    <loc>https://axolotfinder.org/observatorio-cempasuchil</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://media.base44.com/images/public/6a0001949163ade945a0c48b/daadc9032_Cempaschilbajoescrutinioeditorial.png</image:loc>
+      <image:title>Observatorio Cempasúchil: Biopiratería, Toxicología y Soberanía Genética</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://axolotfinder.org/leyenda-cempasuchil</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://axolotfinder.org/fitomejoradores</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://axolotfinder.org/ciencia-mexicana-cempasuchil</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- ═══ Comunidad ═══ -->
+  <url>
+    <loc>https://axolotfinder.org/forum</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://axolotfinder.org/quienes-somos</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://media.base44.com/images/public/6a0001949163ade945a0c48b/bdd5a0a28_CIMA_LOGO_f-01.png</image:loc>
+      <image:title>CIMA A.C. — Quiénes Somos</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://axolotfinder.org/actores</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+
+  <url>
+    <loc>https://axolotfinder.org/publicar-instagram</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- ═══ Organización ═══ -->
+  <url>
+    <loc>https://axolotfinder.org/santuario-ajolote</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://axolotfinder.org/about</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://axolotfinder.org/contacto</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- ═══ Turismo ═══ -->
+  <url>
+    <loc>https://axolotfinder.org/turismo-responsable</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://media.base44.com/images/public/6a0001949163ade945a0c48b/7de240820_images.jpg</image:loc>
+      <image:title>Turismo Ecológico en Xochimilco</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://axolotfinder.org/dia-de-muertos</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- ═══ Batalla por la Playa ═══ -->
+  <url>
+    <loc>https://axolotfinder.org/playacocinas</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://media.base44.com/images/public/6a0001949163ade945a0c48b/18bf0515d_LOGOBATALLAPORLAPLAYA.jpg</image:loc>
+      <image:title>Batalla por la Playa — Playa Las Cocinas, Punta de Mita, Nayarit</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://axolotfinder.org/playacocinas/turismo</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://axolotfinder.org/playa</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- ═══ Conservación y Proyectos ═══ -->
+  <url>
+    <loc>https://axolotfinder.org/chinampas</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://axolotfinder.org/proyectos/rescate-7-chinampas</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://media.base44.com/images/public/6a0001949163ade945a0c48b/165dbce81_canaldelossabinos.jpeg</image:loc>
+      <image:title>Rescate del Hábitat del Ajolote · 7 Chinampas</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://axolotfinder.org/proyectos/chile-chicuarote</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://axolotfinder.org/proyectos/refugio-tortuga-casquito</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://axolotfinder.org/proyectos/laboratorio-reproduccion-coyoacan</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://axolotfinder.org/red-de-biofiltros</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://axolotfinder.org/denuncia-contaminacion-san-gregorio</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://axolotfinder.org/reportaje-drenajes</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://axolotfinder.org/zona-de-sacrificio</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+
+  <url>
+    <loc>https://axolotfinder.org/reporte-incidencia</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://axolotfinder.org/informe-colorimetria-san-gregorio</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://axolotfinder.org/monitoreo-contaminantes-atenco</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://axolotfinder.org/reporte-extraordinario-atenco</loc>
+    <lastmod>2026-10-31</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.95</priority>
+    <image:image>
+      <image:loc>https://media.base44.com/images/public/6a0001949163ade945a0c48b/078e2e2f5_aguasnegrasatenco.jpg</image:loc>
+      <image:title>Reporte Técnico Extraordinario — Mortandad de Peces en San Gregorio Atlapulco</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://axolotfinder.org/acciones-2026</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://axolotfinder.org/acciones-legales</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://axolotfinder.org/carta-ramsar</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- ═══ Voluntariado ═══ -->
+  <url>
+    <loc>https://axolotfinder.org/voluntariado</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://axolotfinder.org/voluntariado/remoto</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://axolotfinder.org/voluntariado/brigadas</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://axolotfinder.org/certificado</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+</urlset>
