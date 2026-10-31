@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
-import { AlertTriangle, ArrowRight, Droplets, FlaskRound, Activity, Skull } from 'lucide-react';
+import { AlertTriangle, ArrowRight, Droplets, FlaskRound, Activity } from 'lucide-react';
 
 // Mini bar chart comparing exterior vs interior for key contaminants
 function MiniContaminantBar({ label, extPct, color }) {
@@ -19,35 +19,9 @@ function MiniContaminantBar({ label, extPct, color }) {
 export default function MonitoreoAtencoBanner() {
   return (
     <section className="py-4 px-4 sm:px-6 lg:px-8">
-      <div className="max-w-5xl mx-auto space-y-3">
-        {/* ═══ EXTRAORDINARY REPORT ALERT ═══ */}
-        <motion.div
-          initial={{ opacity: 0, y: -10 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}
-          className="relative overflow-hidden rounded-2xl bg-gradient-to-r from-red-600 via-red-700 to-red-800 p-4 sm:p-5 shadow-lg">
-          <div className="absolute inset-0 opacity-10"
-            style={{ backgroundImage: 'url(https://media.base44.com/images/public/6a0001949163ade945a0c48b/078e2e2f5_aguasnegrasatenco.jpg)', backgroundSize: 'cover', backgroundPosition: 'center' }} />
-          <div className="relative flex flex-col sm:flex-row items-start sm:items-center gap-3">
-            <div className="flex items-center gap-2 flex-shrink-0">
-              <div className="w-10 h-10 rounded-full bg-white/20 flex items-center justify-center animate-pulse">
-                <Skull className="w-5 h-5 text-white" />
-              </div>
-              <div>
-                <span className="block text-[9px] font-bold uppercase tracking-widest text-red-200">30 oct 2026 · Urgente</span>
-                <span className="block text-sm font-bold text-white">Reporte Extraordinario</span>
-              </div>
-            </div>
-            <p className="text-xs text-white/90 leading-snug flex-1">
-              <strong className="text-white">Mortandad de peces y fauna silvestre</strong> en San Gregorio Atlapulco. Oxígeno disuelto en cero, oxidantes al máximo de escala. Llamado urgente al gobierno para monitoreo serio en toda el ANP.
-            </p>
-            <Link to="/reporte-extraordinario-atenco"
-              className="inline-flex items-center gap-1.5 bg-white text-red-700 font-bold px-4 py-2.5 rounded-lg text-xs whitespace-nowrap hover:bg-red-50 transition-colors shadow-md">
-              Ver reporte <ArrowRight className="w-3.5 h-3.5" />
-            </Link>
-          </div>
-        </motion.div>
-
+      <div className="max-w-5xl mx-auto">
         {/* Warning label */}
-        <div className="flex items-center gap-2">
+        <div className="flex items-center gap-2 mb-2">
           <AlertTriangle className="w-4 h-4 text-red-500 animate-pulse" />
           <span className="text-xs font-bold uppercase tracking-widest text-red-600">Alerta Ambiental · Ciencia Ciudadana</span>
         </div>
