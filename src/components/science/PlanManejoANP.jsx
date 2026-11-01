@@ -4,8 +4,9 @@ import {
   AlertTriangle, ChevronDown, ChevronUp, Scale, Landmark, FileX,
   Droplets, Fish, Building2, FlaskConical, Users, MapPin, ExternalLink,
   Waves, Music, Trash2, Car, Anchor, Home, Beer, Bike, Camera, Zap,
-  Download, Gavel
+  Download, Gavel, Flame, ArrowRight
 } from 'lucide-react';
+import { Link } from 'react-router-dom';
 import { Badge } from "@/components/ui/badge";
 import DenunciasCIMA from './DenunciasCIMA';
 
@@ -541,6 +542,36 @@ export default function PlanManejoANP() {
           <Download className="w-3.5 h-3.5" />
           Descargar PDF oficial
         </a>
+      </motion.div>
+
+      {/* ── Investigación especial: globos y velas flotantes ── */}
+      <motion.div initial={{ opacity: 0, y: 12 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.2 }}>
+        <Link
+          to="/anp/globos-de-cantoya"
+          className="group block rounded-2xl overflow-hidden border border-amber-200/70 bg-gradient-to-br from-indigo-950 via-slate-900 to-amber-950 p-5 sm:p-6 shadow-lg hover:shadow-xl transition-all"
+        >
+          <div className="flex flex-col sm:flex-row sm:items-center gap-4">
+            <div className="w-11 h-11 rounded-2xl bg-amber-400/20 border border-amber-300/30 flex items-center justify-center flex-shrink-0">
+              <Flame className="w-5 h-5 text-amber-300" />
+            </div>
+            <div className="flex-1 min-w-0">
+              <p className="text-[10px] font-bold uppercase tracking-[0.18em] text-amber-300/80 mb-1">
+                Investigación especial · Observatorio del ANP
+              </p>
+              <h3 className="font-heading font-bold text-white text-base sm:text-lg leading-snug">
+                Globos de Cantoya y velas flotantes: actividades que no pueden estar por encima de la ley
+              </h3>
+              <p className="text-xs text-slate-300/85 mt-1.5 leading-relaxed">
+                El fuego, los residuos y las nuevas prácticas turísticas amenazan la seguridad de las chinampas y la
+                conservación del humedal.
+              </p>
+            </div>
+            <span className="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-amber-400 text-amber-950 text-xs font-bold shrink-0 group-hover:bg-amber-300 transition-colors">
+              Leer investigación
+              <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-0.5 transition-transform" />
+            </span>
+          </div>
+        </Link>
       </motion.div>
 
       {/* ── Navegación interna ── */}

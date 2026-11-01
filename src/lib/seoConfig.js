@@ -565,6 +565,20 @@ export const PAGE_SEO = {
     priority: 0.9,
   },
 
+  globosCantoya: {
+    path: '/anp/globos-de-cantoya',
+    titleEs: 'Globos de Cantoya y Velas Flotantes en Xochimilco | Observatorio del ANP — Santuario Ajolote',
+    titleEn: 'Sky Lanterns and Floating Candles in Xochimilco | ANP Observatory — Santuario Ajolote',
+    descEs: 'Investigación jurídica y ambiental sobre la liberación de globos de Cantoya y velas flotantes en el ANP Ejidos de Xochimilco y San Gregorio Atlapulco: Ley de Cultura Cívica art. 28 fr. VII, Programa de Manejo 2018 (reglas 96, 99, 107 y 108), protección civil y riesgo de incendios en chinampas. Santuario Ajolote · CIMA A.C.',
+    descEn: 'Legal and environmental investigation on the release of sky lanterns and floating candles in the Xochimilco and San Gregorio Atlapulco Natural Protected Area: Civic Culture Law art. 28, 2018 Management Program (rules 96, 99, 107 and 108), civil protection and fire risk in chinampas. Santuario Ajolote · CIMA A.C.',
+    keywordsEs: 'globos de cantoya Xochimilco, velas flotantes Xochimilco, linternas flotantes, ANP Xochimilco, Programa de Manejo 2018, Ley de Cultura Cívica CDMX, artículo 28 fracción VII, aeróstatos, incendios chinampas, protección civil, SEDEMA, PAOT, CONANP, humedal, ajolote, Ambystoma mexicanum, Santuario Ajolote, CIMA A.C., turismo nocturno, Día de Muertos Xochimilco',
+    keywordsEn: 'sky lanterns Xochimilco, floating candles Xochimilco, floating lanterns, Xochimilco Natural Protected Area, 2018 Management Program, Mexico City Civic Culture Law, aerostats, chinampa fires, civil protection, SEDEMA, PAOT, wetland, axolotl, Ambystoma mexicanum, Santuario Ajolote, CIMA A.C.',
+    geo: GEO_PRESETS.xochimilco,
+    ogImage: 'https://media.base44.com/images/public/6a0001949163ade945a0c48b/bbdf5dacc_cantolla.jpg',
+    schemaType: 'ScholarlyArticle',
+    priority: 0.9,
+  },
+
   proyectoDetalle: {
     path: '/proyectos/:slug',
     titleEs: 'Proyecto | Santuario Ajolote — Conservación del Ajolote en Xochimilco',

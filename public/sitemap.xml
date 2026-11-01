@@ -312,6 +312,24 @@
   </url>
 
   <url>
+    <loc>https://axolotfinder.org/anp</loc>
+    <lastmod>2026-11-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://axolotfinder.org/anp/globos-de-cantoya</loc>
+    <lastmod>2026-11-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://media.base44.com/images/public/6a0001949163ade945a0c48b/bbdf5dacc_cantolla.jpg</image:loc>
+      <image:title>Globos de Cantoya y Velas Flotantes en Xochimilco — Observatorio del ANP</image:title>
+    </image:image>
+  </url>
+
+  <url>
     <loc>https://axolotfinder.org/acciones-2026</loc>
     <lastmod>2026-10-27</lastmod>
     <changefreq>weekly</changefreq>
