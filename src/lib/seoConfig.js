@@ -551,6 +551,20 @@ export const PAGE_SEO = {
     priority: 0.9,
   },
 
+  planManejoANP: {
+    path: '/anp',
+    titleEs: 'Plan de Manejo ANP Xochimilco | Santuario Ajolote — Cumplimiento Legal y Fallas Institucionales',
+    titleEn: 'ANP Management Plan Xochimilco | Santuario Ajolote — Legal Compliance and Institutional Failures',
+    descEs: 'Análisis del Plan de Manejo del Área Natural Protegida de Xochimilco: fallas del Estado, malas prácticas turísticas, tabla comparativa Plan vs. Realidad, marco legal y denuncias de CIMA A.C.',
+    descEn: 'Analysis of the Xochimilco Natural Protected Area Management Plan: state failures, bad tourism practices, Plan vs. Reality comparative table, legal framework and CIMA A.C. complaints.',
+    keywordsEs: 'Plan de Manejo ANP Xochimilco, Área Natural Protegida, CONANP, LGEEPA, NOM-059, CIMA A.C., conservación ajolote, fallas institucionales, Santuario Ajolote',
+    keywordsEn: 'ANP Management Plan Xochimilco, Natural Protected Area, CONANP, LGEEPA, NOM-059, CIMA A.C., axolotl conservation, institutional failures, Santuario Ajolote',
+    geo: GEO_PRESETS.xochimilco,
+    ogImage: 'https://media.base44.com/images/public/6a0001949163ade945a0c48b/7c2ee6c6f_Logotipopositivo2.png',
+    schemaType: 'Article',
+    priority: 0.9,
+  },
+
   proyectoDetalle: {
     path: '/proyectos/:slug',
     titleEs: 'Proyecto | Santuario Ajolote — Conservación del Ajolote en Xochimilco',

@@ -61,6 +61,7 @@ import Contact from '@/pages/Contact';
 import InformeColorimetriaSanGregorio from '@/pages/InformeColorimetriaSanGregorio';
 import MonitoreoAtenco from '@/pages/MonitoreoAtenco';
 import ReporteExtraordinarioAtenco from '@/pages/ReporteExtraordinarioAtenco';
+import PlanManejoANPPage from '@/pages/PlanManejoANPPage';
 import BatallaPorLaPlaya from '@/pages/BatallaPorLaPlaya';
 import TurismoPlayaCocinas from '@/pages/TurismoPlayaCocinas';
 import Playa from '@/pages/Playa';
@@ -146,6 +147,7 @@ const AuthenticatedApp = () => {
         <Route path="/informe-colorimetria-san-gregorio" element={<InformeColorimetriaSanGregorio />} />
         <Route path="/monitoreo-contaminantes-atenco" element={<MonitoreoAtenco />} />
         <Route path="/reporte-extraordinario-atenco" element={<ReporteExtraordinarioAtenco />} />
+        <Route path="/anp" element={<PlanManejoANPPage />} />
         <Route path="/playacocinas" element={<BatallaPorLaPlaya />} />
         <Route path="/playacocinas/turismo" element={<TurismoPlayaCocinas />} />
         <Route path="/playa" element={<Playa />} />
