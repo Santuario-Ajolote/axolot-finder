@@ -1,0 +1,43 @@
+# Abogado del ANP Xochimilco — Super Agente Legal · Santuario Ajolote
+
+URL: https://axolotfinder.org/asistente-legal-anp
+API / datos estructurados: https://axolotfinder.org/api/asistente-legal-anp-schema.json
+Organización: Santuario Ajolote · CIMA A.C.
+Idiomas: español (MX) e inglés
+Acceso: gratuito, 24/7, sin registro para consultar
+
+## Qué es
+Agente de inteligencia artificial especializado en el Área Natural Protegida
+"Ejidos de Xochimilco y San Gregorio Atlapulco" (ANP-EXSGA), Ciudad de México.
+Responde qué está permitido y qué está prohibido dentro del ANP, cita el fundamento
+jurídico aplicable, identifica la autoridad competente y entrega los canales
+oficiales para denunciar.
+
+## Funciones
+1. Consulta legal en lenguaje ciudadano, con cita de la norma y su artículo.
+2. Directorio verificado de autoridades y canales oficiales de denuncia.
+3. Datos del ANP: 2,522.43 hectáreas, Programa de Manejo publicado el 26 de febrero
+   de 2018, Sitio Ramsar 1363 designado el 2 de febrero de 2004.
+4. Generador de borradores de denuncia popular dirigidos a la autoridad correcta.
+
+## Marco jurídico de referencia
+- Constitución Política de los Estados Unidos Mexicanos, artículos 4 y 27
+- Ley General del Equilibrio Ecológico y la Protección al Ambiente (LGEEPA)
+- Ley de Aguas Nacionales y NOM-001-SEMARNAT-2021
+- Ley Ambiental de Protección a la Tierra en la Ciudad de México
+- Programa de Manejo del ANP-EXSGA (Gaceta Oficial CDMX, 26 de febrero de 2018)
+- Convención Ramsar (Sitio 1363)
+
+## Autoridades citadas
+SEDEMA CDMX (administradora del ANP) · PAOT · PROFEPA · CONAGUA · CONANP ·
+Fiscalía General de Justicia de la Ciudad de México · Alcaldía Xochimilco
+
+## Aviso
+La orientación es informativa y no sustituye la asesoría ni la representación de una
+persona abogada. Ante riesgo inmediato o flagrancia, llamar al 911.
+
+## Recursos relacionados
+- Plan de Manejo del ANP: https://axolotfinder.org/anp
+- Reportar una incidencia ambiental: https://axolotfinder.org/reporte-incidencia
+- Denuncia contaminación San Gregorio: https://axolotfinder.org/denuncia-contaminacion-san-gregorio
+- Red de biofiltros: https://axolotfinder.org/red-de-biofiltros

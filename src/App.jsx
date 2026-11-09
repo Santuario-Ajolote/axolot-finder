@@ -66,6 +66,7 @@ import GlobosCantoyaPage from '@/pages/GlobosCantoyaPage';
 import BatallaPorLaPlaya from '@/pages/BatallaPorLaPlaya';
 import TurismoPlayaCocinas from '@/pages/TurismoPlayaCocinas';
 import Playa from '@/pages/Playa';
+import AsistenteLegalANP from '@/pages/AsistenteLegalANP';
 import useAnalyticsPageView from '@/hooks/useAnalyticsPageView';
 
 const AuthenticatedApp = () => {
@@ -149,6 +150,7 @@ const AuthenticatedApp = () => {
         <Route path="/monitoreo-contaminantes-atenco" element={<MonitoreoAtenco />} />
         <Route path="/reporte-extraordinario-atenco" element={<ReporteExtraordinarioAtenco />} />
         <Route path="/anp" element={<PlanManejoANPPage />} />
+        <Route path="/asistente-legal-anp" element={<AsistenteLegalANP />} />
         <Route path="/anp/globos-de-cantoya" element={<GlobosCantoyaPage />} />
         <Route path="/playacocinas" element={<BatallaPorLaPlaya />} />
         <Route path="/playacocinas/turismo" element={<TurismoPlayaCocinas />} />

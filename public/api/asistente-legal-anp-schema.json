@@ -1,0 +1,85 @@
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Abogado del ANP Xochimilco — Super Agente Legal Ambiental",
+  "alternateName": "Asistente Legal ANP",
+  "url": "https://axolotfinder.org/asistente-legal-anp",
+  "inLanguage": ["es-MX", "en"],
+  "description": "Agente de inteligencia artificial especializado en el Área Natural Protegida Ejidos de Xochimilco y San Gregorio Atlapulco: qué actividades son legales dentro del ANP, fundamento jurídico aplicable, autoridades competentes, canales oficiales de denuncia y generación de borradores de denuncia popular.",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "Santuario Ajolote · Axolot Finder",
+    "url": "https://axolotfinder.org"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Santuario Ajolote · CIMA A.C.",
+    "url": "https://axolotfinder.org"
+  },
+  "about": [
+    {
+      "@type": "Place",
+      "name": "Área Natural Protegida Ejidos de Xochimilco y San Gregorio Atlapulco",
+      "alternateName": "ANP-EXSGA",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Xochimilco",
+        "addressRegion": "Ciudad de México",
+        "addressCountry": "MX"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 19.2765,
+        "longitude": -99.0983
+      }
+    }
+  ],
+  "spatialCoverage": {
+    "@type": "Place",
+    "name": "Humedal de Xochimilco · Sitio Ramsar 1363",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 19.2765,
+      "longitude": -99.0983
+    }
+  },
+  "keywords": [
+    "ANP Xochimilco",
+    "asesoría legal ambiental CDMX",
+    "denuncia ambiental",
+    "PAOT",
+    "PROFEPA",
+    "CONAGUA",
+    "SEDEMA",
+    "LGEEPA",
+    "Programa de Manejo ANP 2018",
+    "Sitio Ramsar 1363"
+  ],
+  "mainEntity": {
+    "@type": "Service",
+    "serviceType": "Orientación legal ambiental con inteligencia artificial",
+    "provider": {
+      "@type": "Organization",
+      "name": "Santuario Ajolote · CIMA A.C."
+    },
+    "areaServed": {
+      "@type": "Place",
+      "name": "Xochimilco y San Gregorio Atlapulco, Ciudad de México"
+    },
+    "audience": {
+      "@type": "Audience",
+      "audienceType": "Ciudadanía, chinamperos, periodistas, investigadores y visitantes del ANP"
+    },
+    "isAccessibleForFree": true,
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "MXN"
+    }
+  },
+  "significantLink": [
+    "https://axolotfinder.org/anp",
+    "https://axolotfinder.org/reporte-incidencia",
+    "https://axolotfinder.org/denuncia-contaminacion-san-gregorio"
+  ]
+}

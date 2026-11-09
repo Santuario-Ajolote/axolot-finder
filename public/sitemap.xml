@@ -71,13 +71,6 @@
     <priority>0.8</priority>
   </url>
 
-  <url>
-    <loc>https://axolotfinder.org/mi-galeria</loc>
-    <lastmod>2026-10-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
   <!-- ═══ Observatorio Cempasúchil ═══ -->
   <url>
     <loc>https://axolotfinder.org/observatorio-cempasuchil</loc>
@@ -232,9 +225,22 @@
 
   <url>
     <loc>https://axolotfinder.org/proyectos/chile-chicuarote</loc>
-    <lastmod>2026-10-27</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+    <image:image>
+      <image:loc>https://media.base44.com/images/public/6a0001949163ade945a0c48b/da77305ca_4bd38334-1698-4c42-aeb2-ff4afbc2da3d.png</image:loc>
+      <image:title>Salsa botanera de chile chicuarote · botella de 150 ml</image:title>
+      <image:caption>Salsa artesanal de chile chicuarote de San Gregorio Atlapulco, Xochimilco</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://media.base44.com/images/public/6a0001949163ade945a0c48b/89be4b1a6_826d376f-bc7e-4cd4-b177-eaa41a7a7cb1.png</image:loc>
+      <image:title>Edición limitada 2026 · 800 botellas de salsa de chile chicuarote</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://media.base44.com/images/public/6a0001949163ade945a0c48b/9ef512f81_a5063b33-4e07-4d08-a80b-2830fc59f82e.png</image:loc>
+      <image:title>Caja de 24 botellas de salsa de chile chicuarote</image:title>
+    </image:image>
   </url>
 
   <url>
@@ -316,6 +322,21 @@
     <lastmod>2026-11-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+  </url>
+
+  <!-- ═══ Super Agente Legal — Abogado del ANP ═══ -->
+  <url>
+    <loc>https://axolotfinder.org/asistente-legal-anp</loc>
+    <lastmod>2026-11-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.95</priority>
+  </url>
+
+  <url>
+    <loc>https://axolotfinder.org/asistente-legal-anp.txt</loc>
+    <lastmod>2026-11-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
   </url>
 
   <url>

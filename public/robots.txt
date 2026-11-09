@@ -1,0 +1,88 @@
+# Santuario Ajolote · Axolot Finder — robots.txt
+User-agent: *
+Allow: /
+Allow: /sightings
+Allow: /genetics
+Allow: /map
+Allow: /science
+Allow: /forum
+Allow: /wild-sightings
+Allow: /chinampas
+Allow: /video-galeria
+Allow: /quienes-somos
+Allow: /infografia-ai
+Allow: /historia-xochimilco
+Allow: /actores
+Allow: /santuario-ajolote
+Allow: /turismo-responsable
+Allow: /dia-de-muertos
+Allow: /reportaje-drenajes
+Allow: /zona-de-sacrificio
+Allow: /observatorio-cempasuchil
+Allow: /ciencia-mexicana-cempasuchil
+Allow: /playacocinas
+Allow: /playacocinas/turismo
+Allow: /playa
+Allow: /informe-colorimetria-san-gregorio
+Allow: /monitoreo-contaminantes-atenco
+Allow: /about
+Allow: /contacto
+Allow: /voluntariado
+Allow: /voluntariado/remoto
+Allow: /voluntariado/brigadas
+Allow: /certificado
+Allow: /red-de-biofiltros
+Allow: /acciones-2026
+Allow: /acciones-legales
+Allow: /carta-ramsar
+Allow: /proyectos/rescate-7-chinampas
+Allow: /proyectos/chile-chicuarote
+Allow: /proyectos/refugio-tortuga-casquito
+Allow: /proyectos/laboratorio-reproduccion-coyoacan
+Allow: /denuncia-contaminacion-san-gregorio
+Allow: /anp
+Allow: /anp/globos-de-cantoya
+Allow: /asistente-legal-anp
+Allow: /asistente-legal-anp.txt
+Allow: /api/asistente-legal-anp-schema.json
+
+Disallow: /admin/
+Disallow: /dashboard/
+Disallow: /profile/
+Disallow: /moderation/
+Disallow: /private/
+Disallow: /mi-galeria
+Disallow: /api/
+
+# Google Bot
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+# Bing Bot
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 2
+
+# AI Crawlers — permitir indexación en buscadores de IA
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+# Sitemaps
+Sitemap: https://axolotfinder.org/sitemap.xml
+Sitemap: https://axolotfinder.org/image-sitemap.xml
