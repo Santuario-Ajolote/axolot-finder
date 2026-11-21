@@ -89,6 +89,27 @@ export default function MonitoreoHero({ lang, onToggleLang, onPrint }) {
               <StatCard icon={FlaskConical} value={META.parametros_count} label={isEs ? 'Parámetros' : 'Parameters'} />
             </div>
 
+            {/* SOS Atenco — último reporte integrado al banner */}
+            <div className="mb-6 max-w-2xl border-l-4 border-red-500 bg-red-950/70 p-3 sm:p-4 backdrop-blur-sm">
+              <div className="flex flex-wrap items-center gap-2">
+                <span className="inline-flex items-center gap-1.5 bg-red-600 px-2 py-0.5 text-[10px] font-black uppercase tracking-widest text-white">
+                  <ShieldAlert className="w-3 h-3" /> SOS
+                </span>
+                <span className="text-[10px] font-bold uppercase tracking-widest text-red-200">
+                  {isEs ? '20 nov 2026 · Contingencia en curso' : 'Nov 20 2026 · Ongoing emergency'}
+                </span>
+              </div>
+              <p className="mt-1.5 text-sm font-bold leading-snug text-white sm:text-base">
+                {isEs
+                  ? 'Oxígeno disuelto en cero en las siete estaciones medidas, peces muertos y riesgo para los últimos ajolotes silvestres.'
+                  : 'Dissolved oxygen at zero at all seven stations measured, dead fish, and risk to the last wild axolotls.'}
+              </p>
+              <Link to="/sos-atenco"
+                className="mt-2 inline-flex items-center gap-1.5 text-xs font-bold text-amber-300 underline hover:text-amber-200">
+                {isEs ? 'Leer el reportaje SOS Atenco' : 'Read the SOS Atenco report'} <ArrowRight className="w-3.5 h-3.5" />
+              </Link>
+            </div>
+
             {/* Action buttons */}
             <div className="flex flex-wrap gap-3">
               <button onClick={onPrint} className="inline-flex items-center gap-2 bg-amber-500 hover:bg-amber-600 text-white font-bold px-5 py-2.5 rounded-xl text-sm transition-colors no-print shadow-lg">
@@ -97,6 +118,11 @@ export default function MonitoreoHero({ lang, onToggleLang, onPrint }) {
               <Link to="/reporte-extraordinario-atenco"
                 className="inline-flex items-center gap-2 bg-red-600 hover:bg-red-700 text-white font-bold px-5 py-2.5 rounded-xl text-sm transition-colors no-print shadow-lg animate-pulse">
                 <AlertTriangle className="w-4 h-4" /> {isEs ? 'Reporte Extraordinario 30/10/2026' : 'Extraordinary Report Oct 30 2026'}
+                <ArrowRight className="w-4 h-4" />
+              </Link>
+              <Link to="/sos-atenco"
+                className="inline-flex items-center gap-2 bg-white text-red-700 hover:bg-red-50 font-bold px-5 py-2.5 rounded-xl text-sm transition-colors no-print shadow-lg">
+                <ShieldAlert className="w-4 h-4" /> {isEs ? 'SOS Atenco 20/11/2026' : 'SOS Atenco Nov 20 2026'}
                 <ArrowRight className="w-4 h-4" />
               </Link>
               <button onClick={onToggleLang} className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-5 py-2.5 rounded-xl text-sm border border-white/20 transition-colors no-print">
