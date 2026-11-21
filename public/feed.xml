@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Santuario Ajolote · Axolot Finder — Conservación del Ajolote</title>
+    <link>https://axolotfinder.org</link>
+    <description>Actualizaciones de conservación del ajolote mexicano (Ambystoma mexicanum), investigación genética y monitoreo de hábitat en Xochimilco</description>
+    <language>es-mx</language>
+    <atom:link href="https://axolotfinder.org/feed.xml" rel="self" type="application/rss+xml"/>
+    <lastBuildDate>2026-11-20T23:30:00Z</lastBuildDate>
+    <ttl>3600</ttl>
+    <item>
+      <title>SOS Atenco: oxígeno en cero y riesgo para los últimos ajolotes de Xochimilco</title>
+      <link>https://axolotfinder.org/sos-atenco</link>
+      <description>Reportaje especial del 20 de noviembre de 2026: oxígeno disuelto en cero y pH 9 en los canales de Atenco, San Gregorio Atlapulco. Peces muertos, evidencia en video y llamado urgente a las autoridades. Ningún registro documenta un ajolote muerto.</description>
+      <guid>https://axolotfinder.org/sos-atenco-2026-11-20</guid>
+      <pubDate>2026-11-20T20:00:00Z</pubDate>
+      <category>Contingencia ambiental</category>
+      <category>Xochimilco</category>
+    </item>
+    <item>
+      <title>Nueva acción legal: denuncia PROFEPA 0920121 por estacionamiento y embarcadero en Cuemanco</title>
+      <link>https://axolotfinder.org/legal</link>
+      <description>Denuncia popular en curso por remoción de arbolado, estacionamiento, embarcadero y operación de trajineras sin acreditación en el ANP de Xochimilco. Evidencia satelital 2014-2026 y próximos pasos.</description>
+      <guid>https://axolotfinder.org/legal-profepa-0920121</guid>
+      <pubDate>2026-11-13T06:00:00Z</pubDate>
+      <category>Acciones legales</category>
+      <category>Xochimilco</category>
+    </item>
+    
+    <item>
+      <title>Red de Biofiltros activa en Xochimilco</title>
+      <link>https://axolotfinder.org/red-de-biofiltros</link>
+      <description>Santuario Ajolote implementa red de biofiltros comunitarios para restaurar la calidad del agua en los canales de Xochimilco</description>
+      <guid>https://axolotfinder.org/red-de-biofiltros-2026</guid>
+      <pubDate>2026-09-15T10:00:00Z</pubDate>
+      <category>Conservación</category>
+      <category>Biofiltros</category>
+    </item>
+    
+    <item>
+      <title>Monitoreo de eDNA activo en Xochimilco</title>
+      <link>https://axolotfinder.org/map</link>
+      <description>Análisis de ADN ambiental continúa monitoreando poblaciones silvestres de Ambystoma mexicanum en la ANP de Xochimilco</description>
+      <guid>https://axolotfinder.org/edna-monitoring-2026</guid>
+      <pubDate>2026-09-01T08:30:00Z</pubDate>
+      <category>Monitoreo</category>
+      <category>Conservación</category>
+    </item>
+    
+    <item>
+      <title>Tours de Día de Muertos 2026 en Xochimilco</title>
+      <link>https://axolotfinder.org/dia-de-muertos</link>
+      <description>Tours en trajinera por los canales de Xochimilco con La Catrina y campos de cempasúchil. Turismo comunitario que conserva al ajolote.</description>
+      <guid>https://axolotfinder.org/dia-de-muertos-2026</guid>
+      <pubDate>2026-08-20T12:00:00Z</pubDate>
+      <category>Turismo</category>
+      <category>Cultura</category>
+    </item>
+    
+    <item>
+      <title>Brigadas de conservación 2026 abiertas</title>
+      <link>https://axolotfinder.org/voluntariado/brigadas</link>
+      <description>Programa de brigadas de conservación abierto con cupo para 40 voluntarios. Restauración de chinampas y humedales de Xochimilco.</description>
+      <guid>https://axolotfinder.org/brigadas-2026</guid>
+      <pubDate>2026-08-10T09:00:00Z</pubDate>
+      <category>Voluntariado</category>
+      <category>Comunidad</category>
+    </item>
+  </channel>
+</rss>
