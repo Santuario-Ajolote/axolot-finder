@@ -6,9 +6,9 @@
     "primary_domain": "https://axolotfinder.org",
     "platform_domain": "https://axolotofinder.base44.app",
     "audit_date": "2026-10-27",
-    "total_routes": 51,
+    "total_routes": 48,
     "visible_routes": 40,
-    "private_routes": 11,
+    "private_routes": 8,
     "languages": [
       "es",
       "en"
@@ -19,8 +19,8 @@
   },
   "summary": {
     "total_routes": 51,
-    "visible_routes": 40,
-    "private_routes": 11,
+    "visible_routes": 41,
+    "private_routes": 8,
     "multilingual_coverage": "100% (ES/EN)",
     "responsive_coverage": "100% (mobile, tablet, desktop)",
     "seo_coverage": "100% (title, description, keywords, canonical, schema, OG)",
@@ -556,9 +556,9 @@
       "notes": "Documentación técnica de la red de biofiltros con manual de construcción, vegetación filtrante y arquitectura del sistema."
     },
     {
-      "path": "/acciones-legales",
-      "name": "Acciones Legales",
-      "file": "src/pages/AccionesLegales.jsx",
+      "path": "/legal",
+      "name": "Acciones Legales · Denuncia PROFEPA 0920121",
+      "file": "src/pages/Legal.jsx",
       "category": "denuncia",
       "multilingual": true,
       "responsive": {
@@ -1202,6 +1202,43 @@
       "notes": "Monitoreo de contaminantes con mapa de 4 puntos, tablas, gráficas y denuncias."
     },
     {
+      "path": "/sos-atenco",
+      "name": "SOS Atenco",
+      "file": "src/pages/SosAtenco.jsx",
+      "category": "investigacion",
+      "multilingual": true,
+      "responsive": {
+        "mobile": true,
+        "tablet": true,
+        "desktop": true
+      },
+      "seo": {
+        "title": true,
+        "description": true,
+        "keywords": true,
+        "canonical": true,
+        "schema": "NewsArticle",
+        "og_image": true
+      },
+      "geo": {
+        "region": "MX-CMX",
+        "placename": "San Gregorio Atlapulco, Xochimilco",
+        "position": "19.2;-99.04"
+      },
+      "og_description": "Reportaje especial: oxígeno disuelto en cero y pH 9 en los canales de Atenco, San Gregorio Atlapulco. Peces muertos y riesgo para los últimos ajolotes silvestres de Xochimilco.",
+      "has_map": false,
+      "has_video": true,
+      "has_photos": true,
+      "has_database": false,
+      "entities": [],
+      "linked_from": [
+        "home",
+        "noticias",
+        "monitoreo-contaminantes-atenco"
+      ],
+      "notes": "Reporte de contingencia en curso con video de campo, lecturas de tiras reactivas y zona afectada documentada."
+    },
+    {
       "path": "/playacocinas",
       "name": "Batalla por la Playa",
       "file": "src/pages/BatallaPorLaPlaya.jsx",
@@ -1502,13 +1539,6 @@
       "category": "privado-admin"
     },
     {
-      "path": "/magic-axolotl",
-      "name": "Ajolote Mágico",
-      "file": "src/pages/MagicAxolotl.jsx",
-      "reason": "Coleccionables digitales privados. No enlazado desde navegación pública.",
-      "category": "privado-usuario"
-    },
-    {
       "path": "/mi-galeria",
       "name": "Mi Galería",
       "file": "src/pages/UserGallery.jsx",
@@ -1520,13 +1550,6 @@
       "name": "Chinampas Virtuales",
       "file": "src/pages/ChinampasVirtuales.jsx",
       "reason": "Sistema de adopción de parcelas. No enlazado desde navegación pública.",
-      "category": "privado-sistema"
-    },
-    {
-      "path": "/casino",
-      "name": "Casino del Ajolote",
-      "file": "src/pages/Casino.jsx",
-      "reason": "Juegos con ajolopesos. No enlazado desde navegación pública.",
       "category": "privado-sistema"
     },
     {
@@ -1556,13 +1579,6 @@
       "file": "src/pages/ProyectoDetalle.jsx",
       "reason": "Ruta dinámica. Solo accesible desde Acciones 2026.",
       "category": "dinamico"
-    },
-    {
-      "path": "/borahae",
-      "name": "Borahae Ajolote",
-      "file": "src/pages/BorahaeAjolote.jsx",
-      "reason": "Campaña especial. Ruta pública pero no enlazada desde navegación principal.",
-      "category": "publico-no-enlazado"
     }
   ],
   "database_entities": [

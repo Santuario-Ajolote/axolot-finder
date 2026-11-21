@@ -9,9 +9,9 @@
 
 | Métrica | Valor |
 |---------|-------|
-| Total de rutas | 51 |
-| Páginas visibles (públicas) | 40 |
-| Páginas privadas (no enlazadas) | 11 |
+| Total de rutas | 48 |
+| Páginas visibles (públicas) | 41 |
+| Páginas privadas (no enlazadas) | 8 |
 | Cobertura multilingüe (ES/EN) | 100% |
 | Cobertura responsiva (mobile/tablet/desktop) | 100% |
 | Cobertura SEO | 100% |
@@ -188,8 +188,8 @@
 - **Base de datos:** ✅ BiofilterRequest
 - **Enlazada desde:** home, acciones-2026
 
-### Acciones Legales — `/acciones-legales`
-- **Archivo:** src/pages/AccionesLegales.jsx
+### Acciones Legales · Denuncia PROFEPA 0920121 — `/legal`
+- **Archivo:** src/pages/Legal.jsx
 - **Categoría:** denuncia
 - **Multilingüe:** ✅ ES/EN
 - **Responsivo:** Móvil ✅ · Tablet ✅ · Desktop ✅
@@ -404,6 +404,18 @@
 - **Base de datos:** ❌
 - **Enlazada desde:** home
 
+### SOS Atenco — `/sos-atenco`
+- **Archivo:** src/pages/SosAtenco.jsx
+- **Categoría:** investigacion
+- **Multilingüe:** ✅ ES/EN
+- **Responsivo:** Móvil ✅ · Tablet ✅ · Desktop ✅
+- **SEO:** Title ✅ · Desc ✅ · Schema NewsArticle
+- **Geo:** MX-CMX · San Gregorio Atlapulco, Xochimilco
+- **OG Description:** Reportaje especial: oxígeno disuelto en cero y pH 9 en los canales de Atenco, San Gregorio Atlapulco. Peces muertos y riesgo para los últimos ajolotes silvestres de Xochimilco.
+- **Mapa:** ❌ · **Video:** ✅ · **Fotos:** ✅
+- **Base de datos:** ❌
+- **Enlazada desde:** home, noticias, monitoreo-contaminantes-atenco
+
 ### Batalla por la Playa — `/playacocinas`
 - **Archivo:** src/pages/BatallaPorLaPlaya.jsx
 - **Categoría:** turismo
@@ -513,11 +525,6 @@
 - **Razón:** Solo admin. Panel de administración para verificación de contenido.
 - **Categoría:** privado-admin
 
-### Ajolote Mágico — `/magic-axolotl`
-- **Archivo:** src/pages/MagicAxolotl.jsx
-- **Razón:** Coleccionables digitales privados. No enlazado desde navegación pública.
-- **Categoría:** privado-usuario
-
 ### Mi Galería — `/mi-galeria`
 - **Archivo:** src/pages/UserGallery.jsx
 - **Razón:** Galería personal de usuario. Requiere login.
@@ -526,11 +533,6 @@
 ### Chinampas Virtuales — `/chinampas`
 - **Archivo:** src/pages/ChinampasVirtuales.jsx
 - **Razón:** Sistema de adopción de parcelas. No enlazado desde navegación pública.
-- **Categoría:** privado-sistema
-
-### Casino del Ajolote — `/casino`
-- **Archivo:** src/pages/Casino.jsx
-- **Razón:** Juegos con ajolopesos. No enlazado desde navegación pública.
 - **Categoría:** privado-sistema
 
 ### Publicar Instagram — `/publicar-instagram`
@@ -552,11 +554,6 @@
 - **Archivo:** src/pages/ProyectoDetalle.jsx
 - **Razón:** Ruta dinámica. Solo accesible desde Acciones 2026.
 - **Categoría:** dinamico
-
-### Borahae Ajolote — `/borahae`
-- **Archivo:** src/pages/BorahaeAjolote.jsx
-- **Razón:** Campaña especial. Ruta pública pero no enlazada desde navegación principal.
-- **Categoría:** publico-no-enlazado
 
 
 ## Entidades de Base de Datos
