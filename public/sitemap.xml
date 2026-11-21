@@ -14,6 +14,18 @@
     </image:image>
   </url>
 
+  <!-- ═══ Noticias ═══ -->
+  <url>
+    <loc>https://axolotfinder.org/noticias</loc>
+    <lastmod>2026-11-13</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://media.base44.com/images/public/6a0001949163ade945a0c48b/ee749fdc1_generated_image.png</image:loc>
+      <image:title>Portal de noticias de Santuario Ajolote — Redacción 24 h</image:title>
+    </image:image>
+  </url>
+
   <!-- ═══ Ciencia y Datos ═══ -->
   <url>
     <loc>https://axolotfinder.org/map</loc>
@@ -110,6 +122,17 @@
     <lastmod>2026-10-27</lastmod>
     <changefreq>hourly</changefreq>
     <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://axolotfinder.org/cima</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://media.base44.com/images/public/6a0001949163ade945a0c48b/bdd5a0a28_CIMA_LOGO_f-01.png</image:loc>
+      <image:title>CIMA A.C. — Asociación civil ambiental en México</image:title>
+    </image:image>
   </url>
 
   <url>
@@ -307,6 +330,21 @@
   </url>
 
   <url>
+    <loc>https://axolotfinder.org/sos-atenco</loc>
+    <lastmod>2026-11-20</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.95</priority>
+    <image:image>
+      <image:loc>https://media.base44.com/images/public/6a0001949163ade945a0c48b/2e0f7971c_2a3a883ae_asiseextiendelacontamiancion.JPG</image:loc>
+      <image:title>SOS Atenco — Extensión de la contaminación en San Gregorio Atlapulco</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://media.base44.com/images/public/6a0001949163ade945a0c48b/5c5c9c981_bf9f0b516_extencioncontamianda.JPG</image:loc>
+      <image:title>SOS Atenco — Corredor de 3 km con siete estaciones de monitoreo</image:title>
+    </image:image>
+  </url>
+
+  <url>
     <loc>https://axolotfinder.org/reporte-extraordinario-atenco</loc>
     <lastmod>2026-10-31</lastmod>
     <changefreq>daily</changefreq>
@@ -333,13 +371,6 @@
   </url>
 
   <url>
-    <loc>https://axolotfinder.org/asistente-legal-anp.txt</loc>
-    <lastmod>2026-11-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
     <loc>https://axolotfinder.org/anp/globos-de-cantoya</loc>
     <lastmod>2026-11-01</lastmod>
     <changefreq>monthly</changefreq>
@@ -358,10 +389,34 @@
   </url>
 
   <url>
-    <loc>https://axolotfinder.org/acciones-legales</loc>
-    <lastmod>2026-10-27</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <loc>https://axolotfinder.org/legal</loc>
+    <lastmod>2026-11-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://base44.app/api/apps/6a0001949163ade945a0c48b/files/mp/public/6a0001949163ade945a0c48b/457666e68_14_porton_acceso_letreros.jpg</image:loc>
+      <image:title>Portón de acceso del predio denunciado en Cuemanco, Xochimilco, donde operan las marcas señaladas Arca Tierra, Akali CDMX y Hecho en Xochimilco</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://base44.app/api/apps/6a0001949163ade945a0c48b/files/mp/public/6a0001949163ade945a0c48b/bd4cf6cf7_15_acercamiento_embarcaciones_2025.jpg</image:loc>
+      <image:title>Acercamiento 2025: embarcaciones atracadas en el borde del Antiguo Canal de Cuemanco</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://base44.app/api/apps/6a0001949163ade945a0c48b/files/mp/public/6a0001949163ade945a0c48b/6b7a52af2_16_acercamiento_atraques_2026.jpg</image:loc>
+      <image:title>Acercamiento 2026: estructuras de atraque construidas en el borde del canal</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://base44.app/api/apps/6a0001949163ade945a0c48b/files/mp/public/6a0001949163ade945a0c48b/ade0312d1_07_satelital_2025-03.jpg</image:loc>
+      <image:title>Imagen satelital marzo 2025: estacionamiento y embarcaciones en Cuemanco, Xochimilco</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://base44.app/api/apps/6a0001949163ade945a0c48b/files/mp/public/6a0001949163ade945a0c48b/cb605d9bc_08_satelital_2026-01.jpg</image:loc>
+      <image:title>Imagen satelital enero 2026: estructuras de atraque en el Antiguo Canal de Cuemanco</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://base44.app/api/apps/6a0001949163ade945a0c48b/files/mp/public/6a0001949163ade945a0c48b/50af87a76_09_comparativo_borde_canal_2019-2026.jpg</image:loc>
+      <image:title>Comparativo 2019-2026 del borde del canal en Cuemanco</image:title>
+    </image:image>
   </url>
 
   <url>
@@ -400,4 +455,10 @@
     <priority>0.7</priority>
   </url>
 
+  <url><loc>https://axolotfinder.org/noticias/voces-de-xochimilco-arca-tierra.html</loc><lastmod>2026-11-19</lastmod></url>
+  <url><loc>https://axolotfinder.org/noticias/voces-de-xochimilco-arca-tierra-en.html</loc><lastmod>2026-11-19</lastmod></url>
+  <url><loc>https://axolotfinder.org/noticias/voces-de-xochimilco-arca-tierra-fr.html</loc><lastmod>2026-11-19</lastmod></url>
+  <url><loc>https://axolotfinder.org/noticias/voces-de-xochimilco-arca-tierra-ru.html</loc><lastmod>2026-11-19</lastmod></url>
+  <url><loc>https://axolotfinder.org/foro/arca-tierra</loc></url>
+<url><loc>https://axolotfinder.org/clasificados</loc></url>
 </urlset>
